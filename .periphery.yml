@@ -1,0 +1,6 @@
+project: LemonCountdown.xcodeproj
+retain_public: true
+schemes:
+- LemonCountdown
+targets:
+- LemonCountdown

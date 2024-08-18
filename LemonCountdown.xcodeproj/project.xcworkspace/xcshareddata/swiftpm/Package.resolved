@@ -1,0 +1,123 @@
+{
+  "originHash" : "6f6d27eac2a62fc928c9007157b3661a37786620553fef20c84bd07076418305",
+  "pins" : [
+    {
+      "identity" : "colorkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Boris-Em/ColorKit.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "6e4375a6126eac0a29893c607ae318bdbe33310c"
+      }
+    },
+    {
+      "identity" : "concentriconboarding",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/exyte/ConcentricOnboarding",
+      "state" : {
+        "revision" : "12d3b2abd946d30bfb3ceb1b4b30f124d80983e9",
+        "version" : "1.0.6"
+      }
+    },
+    {
+      "identity" : "datehelper",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/melvitax/DateHelper",
+      "state" : {
+        "revision" : "76d0840daab7288fc99b04a4c23d504f0394e083",
+        "version" : "5.0.1"
+      }
+    },
+    {
+      "identity" : "horizoncalendar",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/HorizonCalendar",
+      "state" : {
+        "revision" : "a360d71a1255f0b24e378f2ee31a7a7d674a49b6",
+        "version" : "2.0.0"
+      }
+    },
+    {
+      "identity" : "horizontalpicker",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ailu2533/HorizontalPicker.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "61eebae311f4e2c6c3898fd86d2cf722a71411b7"
+      }
+    },
+    {
+      "identity" : "lemondateutils",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ailu2533/LemonDateUtils.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "56f3bf730ce4a2bb7bbae5d555fb7f3935e4cc73"
+      }
+    },
+    {
+      "identity" : "pagertabstripview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/xmartlabs/PagerTabStripView",
+      "state" : {
+        "branch" : "master",
+        "revision" : "69921e0c755be7ff71d1e19f70b6179e432b8b0b"
+      }
+    },
+    {
+      "identity" : "purchases-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RevenueCat/purchases-ios.git",
+      "state" : {
+        "revision" : "966743b0d4353fae28300df677fe303607fd75d0",
+        "version" : "4.41.2"
+      }
+    },
+    {
+      "identity" : "shift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vinhnx/Shift",
+      "state" : {
+        "revision" : "bfcfcb6368925a1f4862725691db310ad1637f06",
+        "version" : "0.11.0"
+      }
+    },
+    {
+      "identity" : "swift-algorithms",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-algorithms",
+      "state" : {
+        "revision" : "f6919dfc309e7f1b56224378b11e28bab5bccc42",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "swift-collections",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-collections.git",
+      "state" : {
+        "revision" : "3d2dc41a01f9e49d84f0a3925fb858bed64f702d",
+        "version" : "1.1.2"
+      }
+    },
+    {
+      "identity" : "swift-numerics",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-numerics.git",
+      "state" : {
+        "revision" : "0a5bc04095a675662cf24757cc0640aa2204253b",
+        "version" : "1.0.2"
+      }
+    },
+    {
+      "identity" : "swiftmovable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ailu2533/SwiftMovable.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d11b99a19070081716bf4585a0bbccbe703984cb"
+      }
+    }
+  ],
+  "version" : 3
+}

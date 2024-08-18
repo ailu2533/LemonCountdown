@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>我们需要您的同意来访问您的日历。这将允许应用将事件直接添加到您的日历中，从而提供提醒功能，确保您不会错过任何重要事件。</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>ChillRoundFRegular.otf</string>
+		<string>ChillRoundFBold.otf</string>
+		<string>TickingTimebombBB.ttf</string>
+		<string>Digital Dismay.otf</string>
+	</array>
+</dict>
+</plist>

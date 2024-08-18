@@ -1,0 +1,12 @@
+{
+  "developmentRegion" : "zh-Hans",
+  "project" : "LemonCountdown.xcodeproj",
+  "targetLocale" : "zh-Hans",
+  "toolInfo" : {
+    "toolBuildNumber" : "15E204a",
+    "toolID" : "com.apple.dt.xcode",
+    "toolName" : "Xcode",
+    "toolVersion" : "15.3"
+  },
+  "version" : "1.0"
+}

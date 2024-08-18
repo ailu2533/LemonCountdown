@@ -1,0 +1,94 @@
+{
+  "sourceLanguage" : "zh-Hans",
+  "strings" : {
+    "CFBundleDisplayName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Countdown"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Countdown"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "倒数纪念"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "倒数纪念"
+          }
+        }
+      }
+    },
+    "CFBundleName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Countdown"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Countdown"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "倒数纪念"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "倒数纪念"
+          }
+        }
+      }
+    },
+    "NSCalendarsUsageDescription" : {
+      "comment" : "Privacy - Calendars Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We need your consent to access your calendar. This will allow the app to directly add events to your calendar, providing reminder functionality to ensure you do not miss any important events."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "私たちはあなたのカレンダーにアクセスするための同意が必要です。これにより、アプリが直接あなたのカレンダーにイベントを追加し、リマインダー機能を提供して、重要なイベントを逃さないようにすることができます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "우리는 귀하의 캘린더에 접근할 수 있는 동의가 필요합니다. 이를 통해 앱이 귀하의 캘린더에 직접 이벤트를 추가할 수 있으며, 중요한 이벤트를 놓치지 않도록 알림 기능을 제공합니다.\n"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "我们需要您的同意来访问您的日历。这将允许应用将事件直接添加到您的日历中，从而提供提醒功能，确保您不会错过任何重要事件。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,139 @@
+{
+  "identifier" : "E71F88A3",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6499009310",
+    "_compatibilityTimeRate" : {
+      "3" : 6
+    },
+    "_developerTeamID" : "S3879FFC37",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 738775934.30987704,
+    "_locale" : "en_US",
+    "_storefront" : "CHN",
+    "_storeKitErrors" : [
+      {
+        "current" : {
+          "index" : 2,
+          "type" : "generic"
+        },
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : {
+          "index" : 1,
+          "type" : "purchase"
+        },
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ],
+    "_timeRate" : 1002
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21493829",
+      "localizations" : [
+
+      ],
+      "name" : "Premium",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "28.0",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6503341760",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "解锁所有付费内容",
+              "displayName" : "年度会员",
+              "locale" : "zh_CN"
+            }
+          ],
+          "productID" : "lemon_widget_yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "年费",
+          "subscriptionGroupID" : "21493829",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "6.0",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6503341679",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "解锁所有付费内容",
+              "displayName" : "月度会员",
+              "locale" : "zh_CN"
+            }
+          ],
+          "productID" : "lemon_widget_monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "月费",
+          "subscriptionGroupID" : "21493829",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

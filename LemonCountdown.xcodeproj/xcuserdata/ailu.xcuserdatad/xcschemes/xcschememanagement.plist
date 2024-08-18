@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CountdownWidgetExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>LemonCountdown.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>LemonCountdownWidgetsExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>StoreKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>WidgetsExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>27B1F16E2BE7616E00984542</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>27D400122BD0B0FB003ABB1D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>27D400222BD0B0FC003ABB1D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>27D4002C2BD0B0FC003ABB1D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>27F099A62BEB46AB00CDEBC8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
