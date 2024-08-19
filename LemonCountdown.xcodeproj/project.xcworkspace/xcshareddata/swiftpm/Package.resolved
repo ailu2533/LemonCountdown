@@ -1,5 +1,5 @@
 {
-  "originHash" : "22a3480dd171b84fac3e766af68cb595e323e36b446cb36736e38e7683397e9a",
+  "originHash" : "c8aae6cec131e15cbd6c60b094957ab42fdd385c4fb5673880f7203afcf82cfd",
   "pins" : [
     {
       "identity" : "colorkit",
@@ -116,15 +116,6 @@
       "state" : {
         "revision" : "0a5bc04095a675662cf24757cc0640aa2204253b",
         "version" : "1.0.2"
-      }
-    },
-    {
-      "identity" : "swiftmovable",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ailu2533/SwiftMovable.git",
-      "state" : {
-        "branch" : "main",
-        "revision" : "d11b99a19070081716bf4585a0bbccbe703984cb"
       }
     },
     {

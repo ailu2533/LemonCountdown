@@ -21,7 +21,6 @@ struct EditableWidgetCardView: View {
     var enableModify: Bool // Flag to enable modification of the widget elements
 //    var fillStyle: AnyShapeStyle // The fill style for the widget background
 
-
     @Binding var selected: UUID? // Currently selected movable object
 
     let coordinateSpaceId = UUID()
@@ -37,6 +36,31 @@ struct EditableWidgetCardView: View {
     }
 
     var body: some View {
+        // Configuration for movable objects (stickers, texts, event info)
+        let stickerConfig = MovableObjectViewConfig.Builder().setParentSize(widgetSize)
+            .setIsEnabled(enableModify)
+            .setOnDelete { item in
+                phase.stickers.removeAll { $0.id == item.id }
+                selected = nil
+            }
+            .build()
+
+        let textConfig = MovableObjectViewConfig.Builder().setParentSize(widgetSize)
+            .setIsEnabled(enableModify)
+            .setOnDelete { item in
+                phase.texts.removeAll { $0.id == item.id }
+                selected = nil
+            }
+            .build()
+
+        let eventInfoConfig = MovableObjectViewConfig.Builder().setParentSize(widgetSize)
+            .setIsEnabled(enableModify)
+            .setOnDelete { item in
+                phase.eventInfo.removeAll { $0.id == item.id }
+                selected = nil
+            }
+            .build()
+
         phase.background.backgroundView(widgetSize: widgetSize)
             .frame(width: widgetSize.width, height: widgetSize.height) // Set the size
             .roundedWidget()
@@ -46,28 +70,12 @@ struct EditableWidgetCardView: View {
 //            .coordinateSpace(name: coordinateSpaceId)
             .overlay {
                 ZStack {
-                    // Configuration for movable objects (stickers, texts, event info)
-                    let stickerConfig = MovableObjectViewConfig(parentSize: widgetSize, enable: enableModify, deleteCallback: { item in
-                        phase.stickers.removeAll { $0.id == item.id }
-                        selected = nil
-                    })
-
-                    let textConfig = MovableObjectViewConfig(parentSize: widgetSize, enable: enableModify, deleteCallback: { item in
-                        phase.texts.removeAll { $0.id == item.id }
-                        selected = nil
-                    })
-
-                    let eventInfoConfig = MovableObjectViewConfig(parentSize: widgetSize, enable: enableModify, deleteCallback: { item in
-                        phase.eventInfo.removeAll { $0.id == item.id }
-                        selected = nil
-                    })
-
                     // Display movable views for stickers
                     ForEach(phase.stickers) { sticker in
                         MovableObjectView(item: sticker, selection: $selected, config: stickerConfig) { item in
                             Image(item.stickerName)
                                 .resizable()
-                                .frame(width: 100, height: 100)
+                                .scaledToFit()
                         }
                     }
 

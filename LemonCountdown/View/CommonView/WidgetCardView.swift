@@ -28,17 +28,23 @@ struct WidgetCardView: View {
             .overlay {
                 ZStack {
                     // Configuration for movable objects (stickers, texts, event info)
-                    let stickerConfig = MovableObjectViewConfig(enable: false, deleteCallback: { item in
-                        phase.stickers.removeAll { $0.id == item.id }
-                    })
+                    let stickerConfig = MovableObjectViewConfig.Builder().setIsEnabled(false)
+                        .setOnDelete { item in
+                            phase.stickers.removeAll { $0.id == item.id }
+                        }
+                        .build()
 
-                    let textConfig = MovableObjectViewConfig(parentSize: widgetSize, enable: false, deleteCallback: { item in
-                        phase.texts.removeAll { $0.id == item.id }
-                    })
+                    let textConfig = MovableObjectViewConfig.Builder().setIsEnabled(false)
+                        .setOnDelete { item in
+                            phase.texts.removeAll { $0.id == item.id }
+                        }
+                        .build()
 
-                    let eventInfoConfig = MovableObjectViewConfig(parentSize: widgetSize, enable: false, deleteCallback: { item in
-                        phase.eventInfo.removeAll { $0.id == item.id }
-                    })
+                    let eventInfoConfig = MovableObjectViewConfig.Builder().setIsEnabled(false)
+                        .setOnDelete { item in
+                            phase.eventInfo.removeAll { $0.id == item.id }
+                        }
+                        .build()
 
                     // Display movable views for stickers
                     ForEach(phase.stickers) { sticker in

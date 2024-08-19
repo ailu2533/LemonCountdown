@@ -37,7 +37,6 @@
 		273ADCED2C131F79006AC677 /* CornerRadiusModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCEC2C131F79006AC677 /* CornerRadiusModifier.swift */; };
 		273ADDA52C17BA2C006AC677 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 273ADDA42C17BA2C006AC677 /* RevenueCat */; };
 		273ADDA72C17BA2C006AC677 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 273ADDA62C17BA2C006AC677 /* RevenueCatUI */; };
-		274E06C42C0223B600202A5B /* MovableObjectView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E06C32C0223B600202A5B /* MovableObjectView3.swift */; };
 		274E06C72C02249A00202A5B /* EditableWidgetCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E06C62C02249A00202A5B /* EditableWidgetCardView.swift */; };
 		274E06CB2C0480EB00202A5B /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 274E06CA2C0480EB00202A5B /* .swiftlint.yml */; };
 		276917E32BE223C10077B498 /* RepeatPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276917E22BE223C10077B498 /* RepeatPicker.swift */; };
@@ -121,8 +120,6 @@
 		27F099DF2BEC5A5600CDEBC8 /* StickerPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F099DE2BEC5A5600CDEBC8 /* StickerPickerView.swift */; };
 		27F09A572BED300300CDEBC8 /* WidgetPhaseEditorHorizontalBarText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F09A562BED300300CDEBC8 /* WidgetPhaseEditorHorizontalBarText.swift */; };
 		27F09A592BED311200CDEBC8 /* TextStyleEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F09A582BED311200CDEBC8 /* TextStyleEditor.swift */; };
-		8D1932872C70F4A300F9D2A4 /* SwiftMovable in Frameworks */ = {isa = PBXBuildFile; productRef = 8D1932862C70F4A300F9D2A4 /* SwiftMovable */; };
-		8D1932892C70F6F500F9D2A4 /* SwiftMovable in Frameworks */ = {isa = PBXBuildFile; productRef = 8D1932882C70F6F500F9D2A4 /* SwiftMovable */; };
 		8D19328C2C70F85500F9D2A4 /* HorizontalPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 8D19328B2C70F85500F9D2A4 /* HorizontalPicker */; };
 		8D1932952C711B5200F9D2A4 /* LemonCountdownModel in Frameworks */ = {isa = PBXBuildFile; productRef = 8D1932942C711B5200F9D2A4 /* LemonCountdownModel */; };
 		8DC0F6252C712D1500F810B8 /* LemonCountdownModel in Frameworks */ = {isa = PBXBuildFile; productRef = 8DC0F6242C712D1500F810B8 /* LemonCountdownModel */; };
@@ -145,7 +142,6 @@
 		8DC0F6482C7328B000F810B8 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 8DC0F6472C7328B000F810B8 /* SwiftUIX */; };
 		8DC0F64A2C7329BF00F810B8 /* EventEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6492C7329BF00F810B8 /* EventEditorViewModel.swift */; };
 		8DC0F64D2C733F7E00F810B8 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F64C2C733F7E00F810B8 /* TabItem.swift */; };
-		8DC0F64F2C73470900F810B8 /* EditableWidgetCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E06C62C02249A00202A5B /* EditableWidgetCardView.swift */; };
 		8DC0F6502C73474F00F810B8 /* CornerRadiusModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCEC2C131F79006AC677 /* CornerRadiusModifier.swift */; };
 		8DC0F6542C734B7E00F810B8 /* Control.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6532C734B7E00F810B8 /* Control.swift */; };
 		8DC0F6562C734B9B00F810B8 /* TextAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6552C734B9B00F810B8 /* TextAction.swift */; };
@@ -155,6 +151,14 @@
 		8DC0F65F2C734DAA00F810B8 /* WidgetEditorControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F65E2C734DAA00F810B8 /* WidgetEditorControlsView.swift */; };
 		8DC0F6612C734DC400F810B8 /* WidgetPhaseEditorCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6602C734DC400F810B8 /* WidgetPhaseEditorCardView.swift */; };
 		8DC0F6642C7355BE00F810B8 /* WidgetPhaseEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6632C7355BE00F810B8 /* WidgetPhaseEditorViewModel.swift */; };
+		8DC0F6962C7391A700F810B8 /* SwiftMovable in Frameworks */ = {isa = PBXBuildFile; productRef = 8DC0F6952C7391A700F810B8 /* SwiftMovable */; };
+		8DC0F6982C73998E00F810B8 /* PhaseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6972C73998E00F810B8 /* PhaseRow.swift */; };
+		8DC0F69A2C7399B200F810B8 /* AbsolutePhaseTimeEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6992C7399B200F810B8 /* AbsolutePhaseTimeEditor.swift */; };
+		8DC0F69D2C739B5500F810B8 /* AbsolutePhaseTimeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F69C2C739B5500F810B8 /* AbsolutePhaseTimeEditorView.swift */; };
+		8DC0F69F2C739B7200F810B8 /* RelativePhaseTimeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F69E2C739B7100F810B8 /* RelativePhaseTimeEditorView.swift */; };
+		8DC0F6A12C739B9000F810B8 /* PhaseTimeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6A02C739B9000F810B8 /* PhaseTimeEditorView.swift */; };
+		8DC0F6A32C739BC000F810B8 /* TimeDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6A22C739BC000F810B8 /* TimeDisplayView.swift */; };
+		8DC0F6A52C739BF200F810B8 /* WidgetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6A42C739BF200F810B8 /* WidgetButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -203,7 +207,6 @@
 		273ADCEE2C13264F006AC677 /* keys.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = keys.md; sourceTree = "<group>"; };
 		274CDBAD2BE1D28A00255350 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = /System/Library/Frameworks/WidgetKit.framework; sourceTree = "<absolute>"; };
 		274CDBAF2BE1D28A00255350 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = /System/Library/Frameworks/SwiftUI.framework; sourceTree = "<absolute>"; };
-		274E06C32C0223B600202A5B /* MovableObjectView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovableObjectView3.swift; sourceTree = "<group>"; };
 		274E06C62C02249A00202A5B /* EditableWidgetCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableWidgetCardView.swift; sourceTree = "<group>"; };
 		274E06CA2C0480EB00202A5B /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		276917E22BE223C10077B498 /* RepeatPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatPicker.swift; sourceTree = "<group>"; };
@@ -301,6 +304,13 @@
 		8DC0F6602C734DC400F810B8 /* WidgetPhaseEditorCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetPhaseEditorCardView.swift; sourceTree = "<group>"; };
 		8DC0F6622C734EF000F810B8 /* .gitignore.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = .gitignore.md; sourceTree = "<group>"; };
 		8DC0F6632C7355BE00F810B8 /* WidgetPhaseEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetPhaseEditorViewModel.swift; sourceTree = "<group>"; };
+		8DC0F6972C73998E00F810B8 /* PhaseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseRow.swift; sourceTree = "<group>"; };
+		8DC0F6992C7399B200F810B8 /* AbsolutePhaseTimeEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutePhaseTimeEditor.swift; sourceTree = "<group>"; };
+		8DC0F69C2C739B5500F810B8 /* AbsolutePhaseTimeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutePhaseTimeEditorView.swift; sourceTree = "<group>"; };
+		8DC0F69E2C739B7100F810B8 /* RelativePhaseTimeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativePhaseTimeEditorView.swift; sourceTree = "<group>"; };
+		8DC0F6A02C739B9000F810B8 /* PhaseTimeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseTimeEditorView.swift; sourceTree = "<group>"; };
+		8DC0F6A22C739BC000F810B8 /* TimeDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDisplayView.swift; sourceTree = "<group>"; };
+		8DC0F6A42C739BF200F810B8 /* WidgetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -315,13 +325,13 @@
 				8D1932952C711B5200F9D2A4 /* LemonCountdownModel in Frameworks */,
 				273ADDA52C17BA2C006AC677 /* RevenueCat in Frameworks */,
 				273ADDA72C17BA2C006AC677 /* RevenueCatUI in Frameworks */,
+				8DC0F6962C7391A700F810B8 /* SwiftMovable in Frameworks */,
 				8DC0F6482C7328B000F810B8 /* SwiftUIX in Frameworks */,
 				8D19328C2C70F85500F9D2A4 /* HorizontalPicker in Frameworks */,
 				27D400492BD120A1003ABB1D /* LemonUtils in Frameworks */,
 				27B777582C0F9D90008D5902 /* LemonUtils in Frameworks */,
 				27EE9E502BF9C5F800FAC2D3 /* ConcentricOnboarding in Frameworks */,
 				8DC0F63C2C731D1E00F810B8 /* Defaults in Frameworks */,
-				8D1932872C70F4A300F9D2A4 /* SwiftMovable in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +340,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DC0F6252C712D1500F810B8 /* LemonCountdownModel in Frameworks */,
-				8D1932892C70F6F500F9D2A4 /* SwiftMovable in Frameworks */,
 				27F099A92BEB46AB00CDEBC8 /* SwiftUI.framework in Frameworks */,
 				27F099A82BEB46AB00CDEBC8 /* WidgetKit.framework in Frameworks */,
 				27BCB6DE2C04A70200662159 /* LemonUtils in Frameworks */,
@@ -384,14 +393,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		274E06C52C02247B00202A5B /* WidgetPhaseEditor */ = {
-			isa = PBXGroup;
-			children = (
-				274E06C32C0223B600202A5B /* MovableObjectView3.swift */,
-			);
-			path = WidgetPhaseEditor;
-			sourceTree = "<group>";
-		};
 		276917E12BE223B20077B498 /* Picker */ = {
 			isa = PBXGroup;
 			children = (
@@ -414,11 +415,13 @@
 		2788A9F12BEF836800E8AFBC /* Phase */ = {
 			isa = PBXGroup;
 			children = (
+				8DC0F69B2C739B3F00F810B8 /* PhaseSectionRowView */,
 				27EE9E4C2BF98D9600FAC2D3 /* TimeOffsetPickerView.swift */,
 				2788A9F22BEF837700E8AFBC /* PhaseSection.swift */,
 				27EE9E5B2BFAD7A500FAC2D3 /* PhaseSectionConfiguration.swift */,
-				27EE9E5F2BFAE3F600FAC2D3 /* PhaseSectionRowView.swift */,
 				27EE9E612BFAEEE600FAC2D3 /* PhaseSectionRowConfiguration.swift */,
+				8DC0F6972C73998E00F810B8 /* PhaseRow.swift */,
+				8DC0F6992C7399B200F810B8 /* AbsolutePhaseTimeEditor.swift */,
 			);
 			path = Phase;
 			sourceTree = "<group>";
@@ -611,6 +614,7 @@
 		27F09A532BED2B2200CDEBC8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8DC0F6932C738AFB00F810B8 /* CanvasEditor */,
 				8DC0F64E2C73469F00F810B8 /* CommonView */,
 				273ADCAD2C116855006AC677 /* EventInfoView */,
 				27B7762C2C09794A008D5902 /* Premium */,
@@ -632,7 +636,6 @@
 			isa = PBXGroup;
 			children = (
 				8DC0F6512C734B4000F810B8 /* WidgetPhaseEditorView */,
-				274E06C52C02247B00202A5B /* WidgetPhaseEditor */,
 				27EE9EB42BFCADB700FAC2D3 /* WidgetList */,
 				2788A9F12BEF836800E8AFBC /* Phase */,
 				27F099DA2BEB91E500CDEBC8 /* GradientView.swift */,
@@ -696,7 +699,6 @@
 		8DC0F64E2C73469F00F810B8 /* CommonView */ = {
 			isa = PBXGroup;
 			children = (
-				274E06C62C02249A00202A5B /* EditableWidgetCardView.swift */,
 				27D2A04A2BE8DA4E00D1FA38 /* WidgetCardView.swift */,
 			);
 			path = CommonView;
@@ -734,6 +736,27 @@
 			path = SubViews;
 			sourceTree = "<group>";
 		};
+		8DC0F6932C738AFB00F810B8 /* CanvasEditor */ = {
+			isa = PBXGroup;
+			children = (
+				274E06C62C02249A00202A5B /* EditableWidgetCardView.swift */,
+			);
+			path = CanvasEditor;
+			sourceTree = "<group>";
+		};
+		8DC0F69B2C739B3F00F810B8 /* PhaseSectionRowView */ = {
+			isa = PBXGroup;
+			children = (
+				27EE9E5F2BFAE3F600FAC2D3 /* PhaseSectionRowView.swift */,
+				8DC0F69C2C739B5500F810B8 /* AbsolutePhaseTimeEditorView.swift */,
+				8DC0F69E2C739B7100F810B8 /* RelativePhaseTimeEditorView.swift */,
+				8DC0F6A02C739B9000F810B8 /* PhaseTimeEditorView.swift */,
+				8DC0F6A22C739BC000F810B8 /* TimeDisplayView.swift */,
+				8DC0F6A42C739BF200F810B8 /* WidgetButton.swift */,
+			);
+			path = PhaseSectionRowView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -762,11 +785,11 @@
 				27B777572C0F9D90008D5902 /* LemonUtils */,
 				273ADDA42C17BA2C006AC677 /* RevenueCat */,
 				273ADDA62C17BA2C006AC677 /* RevenueCatUI */,
-				8D1932862C70F4A300F9D2A4 /* SwiftMovable */,
 				8D19328B2C70F85500F9D2A4 /* HorizontalPicker */,
 				8D1932942C711B5200F9D2A4 /* LemonCountdownModel */,
 				8DC0F63B2C731D1E00F810B8 /* Defaults */,
 				8DC0F6472C7328B000F810B8 /* SwiftUIX */,
+				8DC0F6952C7391A700F810B8 /* SwiftMovable */,
 			);
 			productName = LemonCountdown;
 			productReference = 27D400132BD0B0FB003ABB1D /* LemonCountdown.app */;
@@ -790,7 +813,6 @@
 				27BCB6DD2C04A70200662159 /* LemonUtils */,
 				27B775E32C075643008D5902 /* LemonUtils */,
 				27B777592C0F9DA1008D5902 /* LemonUtils */,
-				8D1932882C70F6F500F9D2A4 /* SwiftMovable */,
 				8DC0F6242C712D1500F810B8 /* LemonCountdownModel */,
 			);
 			productName = WidgetsExtension;
@@ -807,7 +829,7 @@
 				KnownAssetTags = (
 					onboarding,
 				);
-				LastSwiftUpdateCheck = 1530;
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					27D400122BD0B0FB003ABB1D = {
@@ -844,11 +866,11 @@
 				27EE9E4E2BF9C5F800FAC2D3 /* XCRemoteSwiftPackageReference "ConcentricOnboarding" */,
 				27B776202C08280A008D5902 /* XCRemoteSwiftPackageReference "purchases-ios" */,
 				27B777562C0F9D90008D5902 /* XCLocalSwiftPackageReference "../LemonUtils" */,
-				8D1932852C70F4A300F9D2A4 /* XCRemoteSwiftPackageReference "SwiftMovable" */,
 				8D19328A2C70F85500F9D2A4 /* XCRemoteSwiftPackageReference "HorizontalPicker" */,
 				8D1932932C711B5200F9D2A4 /* XCLocalSwiftPackageReference "../../../Desktop/LemonCountdownModel" */,
 				8DC0F63A2C731D1E00F810B8 /* XCRemoteSwiftPackageReference "Defaults" */,
 				8DC0F6462C7328B000F810B8 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+				8DC0F6942C7391A700F810B8 /* XCLocalSwiftPackageReference "../../Archive/SwiftMovable" */,
 			);
 			productRefGroup = 27D400142BD0B0FB003ABB1D /* Products */;
 			projectDirPath = "";
@@ -901,7 +923,6 @@
 				27F099DF2BEC5A5600CDEBC8 /* StickerPickerView.swift in Sources */,
 				2788A9F02BEE4ABC00E8AFBC /* Logging.swift in Sources */,
 				27B776282C083E3A008D5902 /* WidgetTemplateViewModel.swift in Sources */,
-				274E06C42C0223B600202A5B /* MovableObjectView3.swift in Sources */,
 				8DC0F6362C72FEE800F810B8 /* AddEventButton.swift in Sources */,
 				27F099DB2BEB91E500CDEBC8 /* GradientView.swift in Sources */,
 				27B1F1DB2BE85EF600984542 /* WidgetTemplateDetailView.swift in Sources */,
@@ -910,6 +931,7 @@
 				2788A9FD2BF1DE5B00E8AFBC /* NotificationPickerView.swift in Sources */,
 				8DC0F64A2C7329BF00F810B8 /* EventEditorViewModel.swift in Sources */,
 				27C3139D2BE328E80001D6CD /* TabSettingsView.swift in Sources */,
+				8DC0F69A2C7399B200F810B8 /* AbsolutePhaseTimeEditor.swift in Sources */,
 				273ADCBB2C116EDC006AC677 /* EventStartDate.swift in Sources */,
 				8DC0F6392C7300C500F810B8 /* Defaults.swift in Sources */,
 				273ADCB22C116BFA006AC677 /* DaysSinceEventView.swift in Sources */,
@@ -921,6 +943,7 @@
 				27B1F1D52BE85B1000984542 /* WidgetListView.swift in Sources */,
 				273ADCC12C1184ED006AC677 /* WidgetTemplateListView.swift in Sources */,
 				8DC0F6272C71377D00F810B8 /* WidgetEntityQueryMedium.swift in Sources */,
+				8DC0F6982C73998E00F810B8 /* PhaseRow.swift in Sources */,
 				27EE9E522BF9C65900FAC2D3 /* PageView.swift in Sources */,
 				27EE9E602BFAE3F600FAC2D3 /* PhaseSectionRowView.swift in Sources */,
 				27EE9E672BFB546F00FAC2D3 /* WidgetCreationView.swift in Sources */,
@@ -941,6 +964,7 @@
 				27EE9E5C2BFAD7A500FAC2D3 /* PhaseSectionConfiguration.swift in Sources */,
 				27EE9E4A2BF8E18C00FAC2D3 /* OnboardingPageData.swift in Sources */,
 				273ADCED2C131F79006AC677 /* CornerRadiusModifier.swift in Sources */,
+				8DC0F6A12C739B9000F810B8 /* PhaseTimeEditorView.swift in Sources */,
 				8DC0F6452C7327C700F810B8 /* Constants.swift in Sources */,
 				27A63C142BE3C60C00F97B04 /* EventCardView.swift in Sources */,
 				273ADCB82C116DF6006AC677 /* EventTitleView.swift in Sources */,
@@ -950,6 +974,7 @@
 				8DC0F6342C72FED600F810B8 /* TagSelectionMenu.swift in Sources */,
 				27EE9E062BF7ADB700FAC2D3 /* WidgetTip.swift in Sources */,
 				27D2A08B2BEA368B00D1FA38 /* ViewModel+Widget.swift in Sources */,
+				8DC0F6A32C739BC000F810B8 /* TimeDisplayView.swift in Sources */,
 				8DC0F6282C71378400F810B8 /* WidgetEntityQuerySmall.swift in Sources */,
 				27264E352BE520F100DC08BB /* TagManagementView.swift in Sources */,
 				2788AA032BF1DEBB00E8AFBC /* IconView.swift in Sources */,
@@ -972,8 +997,10 @@
 				27F09A572BED300300CDEBC8 /* WidgetPhaseEditorHorizontalBarText.swift in Sources */,
 				2788AA072BF222EA00E8AFBC /* EventInfoPickerView.swift in Sources */,
 				273ADCBE2C116F80006AC677 /* DaysUntilEventView.swift in Sources */,
+				8DC0F6A52C739BF200F810B8 /* WidgetButton.swift in Sources */,
 				273ADCAF2C116890006AC677 /* TimerView.swift in Sources */,
 				27D400572BD34EEB003ABB1D /* Icons.swift in Sources */,
+				8DC0F69F2C739B7200F810B8 /* RelativePhaseTimeEditorView.swift in Sources */,
 				8DC0F6542C734B7E00F810B8 /* Control.swift in Sources */,
 				27D2A0882BEA35B500D1FA38 /* ViewModel+TagModel.swift in Sources */,
 				27D400172BD0B0FB003ABB1D /* LemonCountdownApp.swift in Sources */,
@@ -984,6 +1011,7 @@
 				2788AA012BF1DEA900E8AFBC /* NotificationSectionView.swift in Sources */,
 				274E06C72C02249A00202A5B /* EditableWidgetCardView.swift in Sources */,
 				273ADCA52C108213006AC677 /* EventInfoView.swift in Sources */,
+				8DC0F69D2C739B5500F810B8 /* AbsolutePhaseTimeEditorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1001,7 +1029,6 @@
 				8DC0F6502C73474F00F810B8 /* CornerRadiusModifier.swift in Sources */,
 				27F099D82BEB65A800CDEBC8 /* WidgetCardView.swift in Sources */,
 				273ADCB92C116DF6006AC677 /* EventTitleView.swift in Sources */,
-				8DC0F64F2C73470900F810B8 /* EditableWidgetCardView.swift in Sources */,
 				27F099B22BEB46AB00CDEBC8 /* AppIntent.swift in Sources */,
 				2788AA1B2BF3578D00E8AFBC /* LargeProvider.swift in Sources */,
 				273ADCBC2C116EDC006AC677 /* EventStartDate.swift in Sources */,
@@ -1351,6 +1378,10 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../../../Desktop/LemonCountdownModel;
 		};
+		8DC0F6942C7391A700F810B8 /* XCLocalSwiftPackageReference "../../Archive/SwiftMovable" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Archive/SwiftMovable;
+		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -1384,14 +1415,6 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.0.6;
-			};
-		};
-		8D1932852C70F4A300F9D2A4 /* XCRemoteSwiftPackageReference "SwiftMovable" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ailu2533/SwiftMovable.git";
-			requirement = {
-				branch = main;
-				kind = branch;
 			};
 		};
 		8D19328A2C70F85500F9D2A4 /* XCRemoteSwiftPackageReference "HorizontalPicker" */ = {
@@ -1480,16 +1503,6 @@
 			package = 27264E722BE5D9CD00DC08BB /* XCRemoteSwiftPackageReference "Shift" */;
 			productName = Shift;
 		};
-		8D1932862C70F4A300F9D2A4 /* SwiftMovable */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8D1932852C70F4A300F9D2A4 /* XCRemoteSwiftPackageReference "SwiftMovable" */;
-			productName = SwiftMovable;
-		};
-		8D1932882C70F6F500F9D2A4 /* SwiftMovable */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8D1932852C70F4A300F9D2A4 /* XCRemoteSwiftPackageReference "SwiftMovable" */;
-			productName = SwiftMovable;
-		};
 		8D19328B2C70F85500F9D2A4 /* HorizontalPicker */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8D19328A2C70F85500F9D2A4 /* XCRemoteSwiftPackageReference "HorizontalPicker" */;
@@ -1512,6 +1525,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 8DC0F6462C7328B000F810B8 /* XCRemoteSwiftPackageReference "SwiftUIX" */;
 			productName = SwiftUIX;
+		};
+		8DC0F6952C7391A700F810B8 /* SwiftMovable */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftMovable;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
