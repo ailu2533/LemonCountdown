@@ -40,13 +40,11 @@
 		273ADCED2C131F79006AC677 /* CornerRadiusModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCEC2C131F79006AC677 /* CornerRadiusModifier.swift */; };
 		273ADDA52C17BA2C006AC677 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 273ADDA42C17BA2C006AC677 /* RevenueCat */; };
 		273ADDA72C17BA2C006AC677 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 273ADDA62C17BA2C006AC677 /* RevenueCatUI */; };
-		274019362BEE003000B6C0D0 /* PhaseTimeRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274019352BEE003000B6C0D0 /* PhaseTimeRule.swift */; };
 		274E06C42C0223B600202A5B /* MovableObjectView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E06C32C0223B600202A5B /* MovableObjectView3.swift */; };
 		274E06C72C02249A00202A5B /* WidgetCardView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E06C62C02249A00202A5B /* WidgetCardView2.swift */; };
 		274E06CB2C0480EB00202A5B /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 274E06CA2C0480EB00202A5B /* .swiftlint.yml */; };
 		276917E32BE223C10077B498 /* RepeatPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276917E22BE223C10077B498 /* RepeatPicker.swift */; };
 		276918032BE324020077B498 /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276918022BE324020077B498 /* EventListView.swift */; };
-		2788A9EC2BEE317700E8AFBC /* PhaseTimeRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274019352BEE003000B6C0D0 /* PhaseTimeRule.swift */; };
 		2788A9EE2BEE40EF00E8AFBC /* WidgetTemplatePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788A9ED2BEE40EF00E8AFBC /* WidgetTemplatePreview.swift */; };
 		2788A9F02BEE4ABC00E8AFBC /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788A9EF2BEE4ABC00E8AFBC /* Logging.swift */; };
 		2788A9F32BEF837700E8AFBC /* PhaseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788A9F22BEF837700E8AFBC /* PhaseSection.swift */; };
@@ -137,6 +135,8 @@
 		8DC0F6272C71377D00F810B8 /* WidgetEntityQueryMedium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EE9E702BFBA5D400FAC2D3 /* WidgetEntityQueryMedium.swift */; };
 		8DC0F6282C71378400F810B8 /* WidgetEntityQuerySmall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EE9E6E2BFBA5C100FAC2D3 /* WidgetEntityQuerySmall.swift */; };
 		8DC0F6292C71378600F810B8 /* WidgetEntityQueryLarge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EE9E722BFBA5E500FAC2D3 /* WidgetEntityQueryLarge.swift */; };
+		8DC0F62B2C72EC0400F810B8 /* MediumWidgetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F62A2C72EC0400F810B8 /* MediumWidgetListView.swift */; };
+		8DC0F62D2C72F31800F810B8 /* ControlPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F62C2C72F31800F810B8 /* ControlPanel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -186,7 +186,6 @@
 		273ADCC92C11FE28006AC677 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
 		273ADCEC2C131F79006AC677 /* CornerRadiusModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusModifier.swift; sourceTree = "<group>"; };
 		273ADCEE2C13264F006AC677 /* keys.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = keys.md; sourceTree = "<group>"; };
-		274019352BEE003000B6C0D0 /* PhaseTimeRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseTimeRule.swift; sourceTree = "<group>"; };
 		274CDBAD2BE1D28A00255350 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = /System/Library/Frameworks/WidgetKit.framework; sourceTree = "<absolute>"; };
 		274CDBAF2BE1D28A00255350 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = /System/Library/Frameworks/SwiftUI.framework; sourceTree = "<absolute>"; };
 		274E06C32C0223B600202A5B /* MovableObjectView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovableObjectView3.swift; sourceTree = "<group>"; };
@@ -266,6 +265,8 @@
 		27F099DE2BEC5A5600CDEBC8 /* StickerPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerPickerView.swift; sourceTree = "<group>"; };
 		27F09A562BED300300CDEBC8 /* WidgetPhaseEditorHorizontalBarText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetPhaseEditorHorizontalBarText.swift; sourceTree = "<group>"; };
 		27F09A582BED311200CDEBC8 /* TextStyleEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyleEditor.swift; sourceTree = "<group>"; };
+		8DC0F62A2C72EC0400F810B8 /* MediumWidgetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumWidgetListView.swift; sourceTree = "<group>"; };
+		8DC0F62C2C72F31800F810B8 /* ControlPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -545,13 +546,6 @@
 			path = WidgetEditor;
 			sourceTree = "<group>";
 		};
-		27EE9E632BFB41D200FAC2D3 /* Widget */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Widget;
-			sourceTree = "<group>";
-		};
 		27EE9E6D2BFBA5A600FAC2D3 /* WidgetEntityQuery */ = {
 			isa = PBXGroup;
 			children = (
@@ -569,6 +563,7 @@
 				273ADCC02C1184ED006AC677 /* WidgetTemplateListView.swift */,
 				273ADCC52C11D42B006AC677 /* CreateWidgetTip.swift */,
 				273ADCC72C11EE2F006AC677 /* WidgetDetailTip.swift */,
+				8DC0F62A2C72EC0400F810B8 /* MediumWidgetListView.swift */,
 			);
 			path = WidgetList;
 			sourceTree = "<group>";
@@ -615,7 +610,6 @@
 			children = (
 				274E06C52C02247B00202A5B /* WidgetPhaseEditor */,
 				27EE9EB42BFCADB700FAC2D3 /* WidgetList */,
-				27EE9E632BFB41D200FAC2D3 /* Widget */,
 				2788A9F12BEF836800E8AFBC /* Phase */,
 				27F099DA2BEB91E500CDEBC8 /* GradientView.swift */,
 				27B1F1DA2BE85EF600984542 /* WidgetTemplateDetailView.swift */,
@@ -624,10 +618,10 @@
 				27F099DE2BEC5A5600CDEBC8 /* StickerPickerView.swift */,
 				27F09A562BED300300CDEBC8 /* WidgetPhaseEditorHorizontalBarText.swift */,
 				27F09A582BED311200CDEBC8 /* TextStyleEditor.swift */,
-				274019352BEE003000B6C0D0 /* PhaseTimeRule.swift */,
 				2788A9ED2BEE40EF00E8AFBC /* WidgetTemplatePreview.swift */,
 				2788AA042BF2006A00E8AFBC /* StickerMap.swift */,
 				2788AA062BF222EA00E8AFBC /* EventInfoPickerView.swift */,
+				8DC0F62C2C72F31800F810B8 /* ControlPanel.swift */,
 			);
 			path = WidgetTemplate;
 			sourceTree = "<group>";
@@ -822,6 +816,7 @@
 				2788A9F32BEF837700E8AFBC /* PhaseSection.swift in Sources */,
 				27D4005B2BD3B08F003ABB1D /* EventDayView.swift in Sources */,
 				27D400502BD170A4003ABB1D /* EventDetailView.swift in Sources */,
+				8DC0F62D2C72F31800F810B8 /* ControlPanel.swift in Sources */,
 				273ADCC82C11EE2F006AC677 /* WidgetDetailTip.swift in Sources */,
 				2788AA052BF2006A00E8AFBC /* StickerMap.swift in Sources */,
 				27EE9E5C2BFAD7A500FAC2D3 /* PhaseSectionConfiguration.swift in Sources */,
@@ -834,7 +829,6 @@
 				27EE9E062BF7ADB700FAC2D3 /* WidgetTip.swift in Sources */,
 				27D2A08B2BEA368B00D1FA38 /* ViewModel+Widget.swift in Sources */,
 				8DC0F6282C71378400F810B8 /* WidgetEntityQuerySmall.swift in Sources */,
-				274019362BEE003000B6C0D0 /* PhaseTimeRule.swift in Sources */,
 				27264E352BE520F100DC08BB /* TagManagementView.swift in Sources */,
 				2788AA032BF1DEBB00E8AFBC /* IconView.swift in Sources */,
 				27EE9E4D2BF98D9600FAC2D3 /* TimeOffsetPickerView.swift in Sources */,
@@ -843,6 +837,7 @@
 				271DE91E2BD6717F005C6405 /* ImageCarouselView.swift in Sources */,
 				27D2A04B2BE8DA4E00D1FA38 /* WidgetCardView.swift in Sources */,
 				27D400442BD0FB97003ABB1D /* EventEditorView.swift in Sources */,
+				8DC0F62B2C72EC0400F810B8 /* MediumWidgetListView.swift in Sources */,
 				27D2A08D2BEA36A100D1FA38 /* ViewModel+Event.swift in Sources */,
 				27B7762E2C09795C008D5902 /* PremiumCard.swift in Sources */,
 				27F09A592BED311200CDEBC8 /* TextStyleEditor.swift in Sources */,
@@ -877,7 +872,6 @@
 				27EE9E752BFC1F7100FAC2D3 /* WidgetEntityQueryMedium.swift in Sources */,
 				27EE9E742BFC1F6F00FAC2D3 /* WidgetEntityQuerySmall.swift in Sources */,
 				27F099D82BEB65A800CDEBC8 /* WidgetCardView.swift in Sources */,
-				2788A9EC2BEE317700E8AFBC /* PhaseTimeRule.swift in Sources */,
 				273ADCB92C116DF6006AC677 /* EventTitleView.swift in Sources */,
 				2788AA252BF476C000E8AFBC /* icons.swift in Sources */,
 				27F099B22BEB46AB00CDEBC8 /* AppIntent.swift in Sources */,

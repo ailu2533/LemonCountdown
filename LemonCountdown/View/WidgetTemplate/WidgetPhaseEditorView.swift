@@ -149,38 +149,10 @@ struct WidgetPhaseEditorView: View {
     // Control panel for selecting different editing options based on the selected control.
     @ViewBuilder
     var controlPanel: some View {
-        Text("TODO")
-//        Group {
-//            switch selectedControl {
-//            case .sticker:
-//                HorizontalSelectionPicker(items: stickerMap.keys.elements, selectedItem: $selectedSticker, feedback: SensoryFeedback.impact(flexibility: .rigid, intensity: 0.3)) { stickerName in
-//                    Text(stickerName)
-//                }
-//
-//            case .text:
-//
-//                HStack {
-//                    Spacer()
-//                    Button {
-//                        showInputText = true
-//                    } label: {
-//                        Text("输入文字")
-//                    }
-//                    .padding(.horizontal, 12)
-//                    .buttonStyle(HorizontalPickerButtonStyle(isSelected: true))
-//                }
-//
-//            case .eventInfo:
-//                HStack {}
-//            case .background:
-//                HorizontalSelectionPicker(items: BackgroundKind.allCases, selectedItem: $selectedBackgroundKind) { backgroundKind in
-//                    Text(backgroundKind.text).tag(backgroundKind)
-//                }
-//            }
-//        }
-//        .contentMargins(.horizontal, 12)
-//        .frame(maxHeight: 30)
-//        .padding(.vertical, 10)
+        ControlPanel(selectedControl: $selectedControl, selectedSticker: $selectedSticker, showInputText: $showInputText, selectedBackgroundKind: $selectedBackgroundKind)
+            .contentMargins(.horizontal, 12)
+            .frame(maxHeight: 30)
+            .padding(.vertical, 10)
     }
 
     // Bottom panel with tabs for different editing controls.
