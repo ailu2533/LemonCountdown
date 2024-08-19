@@ -12,6 +12,7 @@ import LemonUtils
 import Shift
 import SwiftData
 import SwiftUI
+import SwiftUIX
 import TipKit
 
 // MARK: - EditEventView
@@ -33,7 +34,6 @@ struct EventEditorView: View {
     @State private var saveSuccess = false
     @State private var showDeleteConfirm = false
     @State private var showSheet = false
-    @State private var initialized = false
 
     let changeIconTip = ChangeIconTip()
 
@@ -150,12 +150,8 @@ struct EventEditorView: View {
                         .presentationDetents([.medium])
                         .presentationDragIndicator(.visible)
                 })
-
-                .onAppear {
-                    if !initialized {
-                        initEvent()
-                        initialized = true
-                    }
+                .onAppearOnce {
+                    initEvent()
                 }
         }
     }
@@ -271,106 +267,5 @@ struct EventEditorView: View {
             Text("删除")
         }).disabled(event == nil)
             .tint(Color(.systemRed))
-    }
-}
-
-let weekDays: [(LocalizedStringKey, UInt8)] = [
-    ("星期一", 1),
-    ("星期二", 2),
-    ("星期三", 4),
-    ("星期四", 8),
-    ("星期五", 16),
-    ("星期六", 32),
-    ("星期日", 64)
-]
-
-struct TagSectionView: View {
-    @Bindable var cb: EventBuilder
-
-    @Environment(ViewModel.self) private var vm
-
-    @Query(sort: \Tag.sortValue) private var tags: [Tag] = []
-
-    var body: some View {
-        Section {
-            Picker(selection: $cb.tag) {
-                Text("无").tag(nil as Tag?)
-                Divider()
-                ForEach(tags) { tag in
-                    Text(tag.title).tag(tag as Tag?)
-                }
-            } label: {
-                Text("标签")
-            }
-
-            NavigationLink {
-                TagManagementView()
-            } label: {
-                Text("标签管理")
-            }
-        }
-    }
-}
-
-struct AllDaySectionView: View {
-    @Bindable var cb: EventBuilder
-
-    var body: some View {
-        Section {
-            Toggle("全天", isOn: Binding(get: {
-                cb.isAllDayEvent
-            }, set: { newValue in
-                cb.isAllDayEvent = newValue
-                cb.firstNotification = .none
-                cb.secondNotification = .none
-
-                if newValue {
-                    cb.adjustDate()
-                }
-            }))
-
-            DatePicker("目标日期", selection: $cb.startDate, displayedComponents: [.date])
-                .onChange(of: cb.startDate) { _, newValue in
-                    let endDateComponents = Calendar.current.dateComponents([.hour, .minute], from: cb.endDate)
-                    cb.endDate = Calendar.current.date(bySettingHour: endDateComponents.hour!, minute: endDateComponents.minute!, second: 0, of: newValue)!
-                }
-
-            if !cb.isAllDayEvent {
-                DatePicker("开始时间", selection: $cb.startDate, displayedComponents: [.hourAndMinute])
-                DatePicker("结束时间", selection: $cb.endDate, displayedComponents: [.hourAndMinute])
-            }
-        }
-    }
-}
-
-struct RepeatSectionView: View {
-    @Bindable var cb: EventBuilder
-
-    var body: some View {
-        Section {
-            Toggle("重复", isOn: $cb.isRepeatEnabled)
-            if cb.isRepeatEnabled {
-                NavigationLink {
-                    RepeatPickerView(recurrenceType: $cb.recurrenceType, repeatPeriod: $cb.repeatPeriod, repeatInterval: $cb.repeatInterval, customWeek: $cb.repeatCustomWeekly)
-                } label: {
-                    Text(repeatText(recurrenceType: cb.recurrenceType, repeatPeriod: cb.repeatPeriod, repeatInterval: cb.repeatInterval))
-                }
-
-                if cb.recurrenceType == .customWeekly {
-                    Text(repeatTextCustomWeekly(repeatCustomWeekly: cb.repeatCustomWeekly))
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-                }
-
-                Toggle("结束重复", isOn: $cb.hasRepeatEndDate)
-                if cb.hasRepeatEndDate {
-                    DatePicker("结束日期", selection: Binding(get: {
-                        cb.repeatEndDate ?? .now
-                    }, set: { value in
-                        cb.repeatEndDate = value
-                    }), in: max(cb.startDate, cb.endDate)..., displayedComponents: .date)
-                }
-            }
-        }
     }
 }

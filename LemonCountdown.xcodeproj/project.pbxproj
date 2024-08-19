@@ -12,9 +12,6 @@
 		270EE11A2BFF6A7100006150 /* ChillRoundFBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 270EE1192BFF6A7100006150 /* ChillRoundFBold.otf */; };
 		270EE11B2BFF6A7100006150 /* ChillRoundFBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 270EE1192BFF6A7100006150 /* ChillRoundFBold.otf */; };
 		271DE8D62BD41246005C6405 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 271DE8D52BD41246005C6405 /* InfoPlist.xcstrings */; };
-		271DE8D82BD4E3C7005C6405 /* ImageThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DE8D72BD4E3C7005C6405 /* ImageThumbnailView.swift */; };
-		271DE91E2BD6717F005C6405 /* ImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DE91D2BD6717F005C6405 /* ImageCarouselView.swift */; };
-		271DE9202BD6B65A005C6405 /* TextEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DE91F2BD6B65A005C6405 /* TextEditView.swift */; };
 		27264E352BE520F100DC08BB /* TagManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27264E342BE520F100DC08BB /* TagManagementView.swift */; };
 		27264E742BE5D9CD00DC08BB /* Shift in Frameworks */ = {isa = PBXBuildFile; productRef = 27264E732BE5D9CD00DC08BB /* Shift */; };
 		273ADCA52C108213006AC677 /* EventInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCA42C108213006AC677 /* EventInfoView.swift */; };
@@ -59,7 +56,6 @@
 		2788AA1B2BF3578D00E8AFBC /* LargeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788AA1A2BF3578D00E8AFBC /* LargeProvider.swift */; };
 		2788AA1E2BF3581600E8AFBC /* MediumWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788AA1D2BF3581600E8AFBC /* MediumWidget.swift */; };
 		2788AA242BF453DA00E8AFBC /* ChangeIconTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788AA232BF453DA00E8AFBC /* ChangeIconTip.swift */; };
-		2788AA252BF476C000E8AFBC /* icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D400562BD34EEB003ABB1D /* icons.swift */; };
 		2788AA262BF49CD500E8AFBC /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788A9EF2BEE4ABC00E8AFBC /* Logging.swift */; };
 		27A63C142BE3C60C00F97B04 /* EventCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A63C132BE3C60C00F97B04 /* EventCardView.swift */; };
 		27B1F1C12BE76D0800984542 /* LemonUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 27B1F1C02BE76D0800984542 /* LemonUtils */; };
@@ -92,9 +88,8 @@
 		27D400442BD0FB97003ABB1D /* EventEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D400432BD0FB97003ABB1D /* EventEditorView.swift */; };
 		27D400492BD120A1003ABB1D /* LemonUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 27D400482BD120A1003ABB1D /* LemonUtils */; };
 		27D4004D2BD167A1003ABB1D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D4004C2BD167A1003ABB1D /* ViewModel.swift */; };
-		27D400502BD170A4003ABB1D /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D4004F2BD170A4003ABB1D /* EventDetailView.swift */; };
 		27D400522BD1CF90003ABB1D /* CommonPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D400512BD1CF90003ABB1D /* CommonPreview.swift */; };
-		27D400572BD34EEB003ABB1D /* icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D400562BD34EEB003ABB1D /* icons.swift */; };
+		27D400572BD34EEB003ABB1D /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D400562BD34EEB003ABB1D /* Icons.swift */; };
 		27D4005B2BD3B08F003ABB1D /* EventDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D4005A2BD3B08F003ABB1D /* EventDayView.swift */; };
 		27EE9E062BF7ADB700FAC2D3 /* WidgetTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EE9E052BF7ADB700FAC2D3 /* WidgetTip.swift */; };
 		27EE9E072BF7ADF700FAC2D3 /* WidgetTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EE9E052BF7ADB700FAC2D3 /* WidgetTip.swift */; };
@@ -137,6 +132,19 @@
 		8DC0F6292C71378600F810B8 /* WidgetEntityQueryLarge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EE9E722BFBA5E500FAC2D3 /* WidgetEntityQueryLarge.swift */; };
 		8DC0F62B2C72EC0400F810B8 /* MediumWidgetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F62A2C72EC0400F810B8 /* MediumWidgetListView.swift */; };
 		8DC0F62D2C72F31800F810B8 /* ControlPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F62C2C72F31800F810B8 /* ControlPanel.swift */; };
+		8DC0F62F2C72FC1200F810B8 /* RepeatPeriodPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F62E2C72FC1200F810B8 /* RepeatPeriodPickerView.swift */; };
+		8DC0F6322C72FEBD00F810B8 /* SortedEventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6312C72FEBD00F810B8 /* SortedEventListView.swift */; };
+		8DC0F6342C72FED600F810B8 /* TagSelectionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6332C72FED600F810B8 /* TagSelectionMenu.swift */; };
+		8DC0F6362C72FEE800F810B8 /* AddEventButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6352C72FEE800F810B8 /* AddEventButton.swift */; };
+		8DC0F6392C7300C500F810B8 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6382C7300C500F810B8 /* Defaults.swift */; };
+		8DC0F63C2C731D1E00F810B8 /* Defaults in Frameworks */ = {isa = PBXBuildFile; productRef = 8DC0F63B2C731D1E00F810B8 /* Defaults */; };
+		8DC0F63F2C73272400F810B8 /* RepeatSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F63E2C73272400F810B8 /* RepeatSectionView.swift */; };
+		8DC0F6412C73276900F810B8 /* AllDaySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6402C73276900F810B8 /* AllDaySectionView.swift */; };
+		8DC0F6432C73279500F810B8 /* TagSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6422C73279500F810B8 /* TagSectionView.swift */; };
+		8DC0F6452C7327C700F810B8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6442C7327C700F810B8 /* Constants.swift */; };
+		8DC0F6482C7328B000F810B8 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 8DC0F6472C7328B000F810B8 /* SwiftUIX */; };
+		8DC0F64A2C7329BF00F810B8 /* EventEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6492C7329BF00F810B8 /* EventEditorViewModel.swift */; };
+		8DC0F64D2C733F7E00F810B8 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F64C2C733F7E00F810B8 /* TabItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -167,10 +175,7 @@
 		270EE1162BFF6A6800006150 /* ChillRoundFRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ChillRoundFRegular.otf; sourceTree = "<group>"; };
 		270EE1192BFF6A7100006150 /* ChillRoundFBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ChillRoundFBold.otf; sourceTree = "<group>"; };
 		271DE8D52BD41246005C6405 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
-		271DE8D72BD4E3C7005C6405 /* ImageThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageThumbnailView.swift; sourceTree = "<group>"; };
 		271DE8DB2BD5FABA005C6405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		271DE91D2BD6717F005C6405 /* ImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCarouselView.swift; sourceTree = "<group>"; };
-		271DE91F2BD6B65A005C6405 /* TextEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditView.swift; sourceTree = "<group>"; };
 		27264E342BE520F100DC08BB /* TagManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagManagementView.swift; sourceTree = "<group>"; };
 		273ADCA42C108213006AC677 /* EventInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInfoView.swift; sourceTree = "<group>"; };
 		273ADCAA2C112F07006AC677 /* Digital Dismay.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Digital Dismay.otf"; sourceTree = "<group>"; };
@@ -234,9 +239,8 @@
 		27D400412BD0F03E003ABB1D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		27D400432BD0FB97003ABB1D /* EventEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditorView.swift; sourceTree = "<group>"; };
 		27D4004C2BD167A1003ABB1D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		27D4004F2BD170A4003ABB1D /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
 		27D400512BD1CF90003ABB1D /* CommonPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonPreview.swift; sourceTree = "<group>"; };
-		27D400562BD34EEB003ABB1D /* icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = icons.swift; sourceTree = "<group>"; };
+		27D400562BD34EEB003ABB1D /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 		27D4005A2BD3B08F003ABB1D /* EventDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDayView.swift; sourceTree = "<group>"; };
 		27EE9E052BF7ADB700FAC2D3 /* WidgetTip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WidgetTip.swift; sourceTree = "<group>"; };
 		27EE9E492BF8E18C00FAC2D3 /* OnboardingPageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageData.swift; sourceTree = "<group>"; };
@@ -267,6 +271,17 @@
 		27F09A582BED311200CDEBC8 /* TextStyleEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyleEditor.swift; sourceTree = "<group>"; };
 		8DC0F62A2C72EC0400F810B8 /* MediumWidgetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumWidgetListView.swift; sourceTree = "<group>"; };
 		8DC0F62C2C72F31800F810B8 /* ControlPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanel.swift; sourceTree = "<group>"; };
+		8DC0F62E2C72FC1200F810B8 /* RepeatPeriodPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatPeriodPickerView.swift; sourceTree = "<group>"; };
+		8DC0F6312C72FEBD00F810B8 /* SortedEventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedEventListView.swift; sourceTree = "<group>"; };
+		8DC0F6332C72FED600F810B8 /* TagSelectionMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagSelectionMenu.swift; sourceTree = "<group>"; };
+		8DC0F6352C72FEE800F810B8 /* AddEventButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventButton.swift; sourceTree = "<group>"; };
+		8DC0F6382C7300C500F810B8 /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		8DC0F63E2C73272400F810B8 /* RepeatSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatSectionView.swift; sourceTree = "<group>"; };
+		8DC0F6402C73276900F810B8 /* AllDaySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDaySectionView.swift; sourceTree = "<group>"; };
+		8DC0F6422C73279500F810B8 /* TagSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagSectionView.swift; sourceTree = "<group>"; };
+		8DC0F6442C7327C700F810B8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8DC0F6492C7329BF00F810B8 /* EventEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditorViewModel.swift; sourceTree = "<group>"; };
+		8DC0F64C2C733F7E00F810B8 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -281,10 +296,12 @@
 				8D1932952C711B5200F9D2A4 /* LemonCountdownModel in Frameworks */,
 				273ADDA52C17BA2C006AC677 /* RevenueCat in Frameworks */,
 				273ADDA72C17BA2C006AC677 /* RevenueCatUI in Frameworks */,
+				8DC0F6482C7328B000F810B8 /* SwiftUIX in Frameworks */,
 				8D19328C2C70F85500F9D2A4 /* HorizontalPicker in Frameworks */,
 				27D400492BD120A1003ABB1D /* LemonUtils in Frameworks */,
 				27B777582C0F9D90008D5902 /* LemonUtils in Frameworks */,
 				27EE9E502BF9C5F800FAC2D3 /* ConcentricOnboarding in Frameworks */,
+				8DC0F63C2C731D1E00F810B8 /* Defaults in Frameworks */,
 				8D1932872C70F4A300F9D2A4 /* SwiftMovable in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,17 +407,13 @@
 		2788A9F92BF1CFAE00E8AFBC /* Event */ = {
 			isa = PBXGroup;
 			children = (
-				276918022BE324020077B498 /* EventListView.swift */,
-				27A63C132BE3C60C00F97B04 /* EventCardView.swift */,
-				27D400432BD0FB97003ABB1D /* EventEditorView.swift */,
+				8DC0F63D2C73260B00F810B8 /* EventEditorView */,
+				8DC0F6302C72FE9F00F810B8 /* EventListView */,
 				27D400512BD1CF90003ABB1D /* CommonPreview.swift */,
-				27D4005A2BD3B08F003ABB1D /* EventDayView.swift */,
-				271DE8D72BD4E3C7005C6405 /* ImageThumbnailView.swift */,
 				2788A9FA2BF1DE1B00E8AFBC /* RepeatPickerView.swift */,
 				2788A9FC2BF1DE5B00E8AFBC /* NotificationPickerView.swift */,
-				2788A9FE2BF1DE9300E8AFBC /* ColorSectionView.swift */,
-				2788AA002BF1DEA900E8AFBC /* NotificationSectionView.swift */,
 				2788AA022BF1DEBA00E8AFBC /* IconView.swift */,
+				8DC0F62E2C72FC1200F810B8 /* RepeatPeriodPickerView.swift */,
 			);
 			path = Event;
 			sourceTree = "<group>";
@@ -437,6 +450,8 @@
 			children = (
 				27EE9E052BF7ADB700FAC2D3 /* WidgetTip.swift */,
 				2788AA232BF453DA00E8AFBC /* ChangeIconTip.swift */,
+				273ADCC52C11D42B006AC677 /* CreateWidgetTip.swift */,
+				273ADCC72C11EE2F006AC677 /* WidgetDetailTip.swift */,
 			);
 			path = Tip;
 			sourceTree = "<group>";
@@ -488,6 +503,7 @@
 		27D400152BD0B0FB003ABB1D /* LemonCountdown */ = {
 			isa = PBXGroup;
 			children = (
+				8DC0F6372C7300A700F810B8 /* Model */,
 				273ADCEB2C131F5A006AC677 /* ViewModifier */,
 				274E06CA2C0480EB00202A5B /* .swiftlint.yml */,
 				270EE1152BFF69E700006150 /* fonts */,
@@ -496,7 +512,6 @@
 				27F099D42BEB54C700CDEBC8 /* LemonCountdown.entitlements */,
 				27D2A0892BEA362600D1FA38 /* ViewModel */,
 				271DE8DB2BD5FABA005C6405 /* Info.plist */,
-				27D400562BD34EEB003ABB1D /* icons.swift */,
 				27D400162BD0B0FB003ABB1D /* LemonCountdownApp.swift */,
 				27D4001A2BD0B0FC003ABB1D /* Assets.xcassets */,
 				27D4001C2BD0B0FC003ABB1D /* Preview Content */,
@@ -561,8 +576,6 @@
 			children = (
 				27B1F1D42BE85B1000984542 /* WidgetListView.swift */,
 				273ADCC02C1184ED006AC677 /* WidgetTemplateListView.swift */,
-				273ADCC52C11D42B006AC677 /* CreateWidgetTip.swift */,
-				273ADCC72C11EE2F006AC677 /* WidgetDetailTip.swift */,
 				8DC0F62A2C72EC0400F810B8 /* MediumWidgetListView.swift */,
 			);
 			path = WidgetList;
@@ -594,13 +607,11 @@
 				2788AA222BF452C100E8AFBC /* Tip */,
 				2788A9F92BF1CFAE00E8AFBC /* Event */,
 				27F09A552BED2D5C00CDEBC8 /* WidgetTemplate */,
-				27D4004F2BD170A4003ABB1D /* EventDetailView.swift */,
 				27D400412BD0F03E003ABB1D /* MainView.swift */,
-				271DE91D2BD6717F005C6405 /* ImageCarouselView.swift */,
-				271DE91F2BD6B65A005C6405 /* TextEditView.swift */,
 				27264E342BE520F100DC08BB /* TagManagementView.swift */,
 				276918012BE323EE0077B498 /* TabView */,
 				276917E12BE223B20077B498 /* Picker */,
+				8DC0F64C2C733F7E00F810B8 /* TabItem.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -624,6 +635,51 @@
 				8DC0F62C2C72F31800F810B8 /* ControlPanel.swift */,
 			);
 			path = WidgetTemplate;
+			sourceTree = "<group>";
+		};
+		8DC0F6302C72FE9F00F810B8 /* EventListView */ = {
+			isa = PBXGroup;
+			children = (
+				8DC0F64B2C733CA000F810B8 /* EventCardView */,
+				276918022BE324020077B498 /* EventListView.swift */,
+				8DC0F6312C72FEBD00F810B8 /* SortedEventListView.swift */,
+				8DC0F6332C72FED600F810B8 /* TagSelectionMenu.swift */,
+				8DC0F6352C72FEE800F810B8 /* AddEventButton.swift */,
+			);
+			path = EventListView;
+			sourceTree = "<group>";
+		};
+		8DC0F6372C7300A700F810B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8DC0F6382C7300C500F810B8 /* Defaults.swift */,
+				27D400562BD34EEB003ABB1D /* Icons.swift */,
+				8DC0F6442C7327C700F810B8 /* Constants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8DC0F63D2C73260B00F810B8 /* EventEditorView */ = {
+			isa = PBXGroup;
+			children = (
+				2788AA002BF1DEA900E8AFBC /* NotificationSectionView.swift */,
+				27D400432BD0FB97003ABB1D /* EventEditorView.swift */,
+				8DC0F6492C7329BF00F810B8 /* EventEditorViewModel.swift */,
+				8DC0F63E2C73272400F810B8 /* RepeatSectionView.swift */,
+				8DC0F6402C73276900F810B8 /* AllDaySectionView.swift */,
+				2788A9FE2BF1DE9300E8AFBC /* ColorSectionView.swift */,
+				8DC0F6422C73279500F810B8 /* TagSectionView.swift */,
+			);
+			path = EventEditorView;
+			sourceTree = "<group>";
+		};
+		8DC0F64B2C733CA000F810B8 /* EventCardView */ = {
+			isa = PBXGroup;
+			children = (
+				27D4005A2BD3B08F003ABB1D /* EventDayView.swift */,
+				27A63C132BE3C60C00F97B04 /* EventCardView.swift */,
+			);
+			path = EventCardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -657,6 +713,8 @@
 				8D1932862C70F4A300F9D2A4 /* SwiftMovable */,
 				8D19328B2C70F85500F9D2A4 /* HorizontalPicker */,
 				8D1932942C711B5200F9D2A4 /* LemonCountdownModel */,
+				8DC0F63B2C731D1E00F810B8 /* Defaults */,
+				8DC0F6472C7328B000F810B8 /* SwiftUIX */,
 			);
 			productName = LemonCountdown;
 			productReference = 27D400132BD0B0FB003ABB1D /* LemonCountdown.app */;
@@ -737,6 +795,8 @@
 				8D1932852C70F4A300F9D2A4 /* XCRemoteSwiftPackageReference "SwiftMovable" */,
 				8D19328A2C70F85500F9D2A4 /* XCRemoteSwiftPackageReference "HorizontalPicker" */,
 				8D1932932C711B5200F9D2A4 /* XCLocalSwiftPackageReference "../../../Desktop/LemonCountdownModel" */,
+				8DC0F63A2C731D1E00F810B8 /* XCRemoteSwiftPackageReference "Defaults" */,
+				8DC0F6462C7328B000F810B8 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
 			);
 			productRefGroup = 27D400142BD0B0FB003ABB1D /* Products */;
 			projectDirPath = "";
@@ -790,17 +850,19 @@
 				2788A9F02BEE4ABC00E8AFBC /* Logging.swift in Sources */,
 				27B776282C083E3A008D5902 /* WidgetTemplateViewModel.swift in Sources */,
 				274E06C42C0223B600202A5B /* MovableObjectView3.swift in Sources */,
+				8DC0F6362C72FEE800F810B8 /* AddEventButton.swift in Sources */,
 				27F099DB2BEB91E500CDEBC8 /* GradientView.swift in Sources */,
 				27B1F1DB2BE85EF600984542 /* WidgetTemplateDetailView.swift in Sources */,
 				2788A9FF2BF1DE9300E8AFBC /* ColorSectionView.swift in Sources */,
 				276917E32BE223C10077B498 /* RepeatPicker.swift in Sources */,
 				2788A9FD2BF1DE5B00E8AFBC /* NotificationPickerView.swift in Sources */,
+				8DC0F64A2C7329BF00F810B8 /* EventEditorViewModel.swift in Sources */,
 				27C3139D2BE328E80001D6CD /* TabSettingsView.swift in Sources */,
 				273ADCBB2C116EDC006AC677 /* EventStartDate.swift in Sources */,
+				8DC0F6392C7300C500F810B8 /* Defaults.swift in Sources */,
 				273ADCB22C116BFA006AC677 /* DaysSinceEventView.swift in Sources */,
 				27EE9E622BFAEEE600FAC2D3 /* PhaseSectionRowConfiguration.swift in Sources */,
 				2788A9EE2BEE40EF00E8AFBC /* WidgetTemplatePreview.swift in Sources */,
-				271DE8D82BD4E3C7005C6405 /* ImageThumbnailView.swift in Sources */,
 				27B1F1D12BE786FB00984542 /* WidgetPhaseEditorView.swift in Sources */,
 				276918032BE324020077B498 /* EventListView.swift in Sources */,
 				27D400522BD1CF90003ABB1D /* CommonPreview.swift in Sources */,
@@ -815,27 +877,33 @@
 				27EE9E5E2BFAE3C700FAC2D3 /* HelperUtils.swift in Sources */,
 				2788A9F32BEF837700E8AFBC /* PhaseSection.swift in Sources */,
 				27D4005B2BD3B08F003ABB1D /* EventDayView.swift in Sources */,
-				27D400502BD170A4003ABB1D /* EventDetailView.swift in Sources */,
 				8DC0F62D2C72F31800F810B8 /* ControlPanel.swift in Sources */,
+				8DC0F64D2C733F7E00F810B8 /* TabItem.swift in Sources */,
 				273ADCC82C11EE2F006AC677 /* WidgetDetailTip.swift in Sources */,
 				2788AA052BF2006A00E8AFBC /* StickerMap.swift in Sources */,
 				27EE9E5C2BFAD7A500FAC2D3 /* PhaseSectionConfiguration.swift in Sources */,
 				27EE9E4A2BF8E18C00FAC2D3 /* OnboardingPageData.swift in Sources */,
 				273ADCED2C131F79006AC677 /* CornerRadiusModifier.swift in Sources */,
+				8DC0F6452C7327C700F810B8 /* Constants.swift in Sources */,
 				27A63C142BE3C60C00F97B04 /* EventCardView.swift in Sources */,
 				273ADCB82C116DF6006AC677 /* EventTitleView.swift in Sources */,
+				8DC0F6432C73279500F810B8 /* TagSectionView.swift in Sources */,
 				273ADCCA2C11FE28006AC677 /* TutorialView.swift in Sources */,
 				273ADCC62C11D42B006AC677 /* CreateWidgetTip.swift in Sources */,
+				8DC0F6342C72FED600F810B8 /* TagSelectionMenu.swift in Sources */,
 				27EE9E062BF7ADB700FAC2D3 /* WidgetTip.swift in Sources */,
 				27D2A08B2BEA368B00D1FA38 /* ViewModel+Widget.swift in Sources */,
 				8DC0F6282C71378400F810B8 /* WidgetEntityQuerySmall.swift in Sources */,
 				27264E352BE520F100DC08BB /* TagManagementView.swift in Sources */,
 				2788AA032BF1DEBB00E8AFBC /* IconView.swift in Sources */,
+				8DC0F63F2C73272400F810B8 /* RepeatSectionView.swift in Sources */,
 				27EE9E4D2BF98D9600FAC2D3 /* TimeOffsetPickerView.swift in Sources */,
 				2788A9FB2BF1DE1B00E8AFBC /* RepeatPickerView.swift in Sources */,
+				8DC0F6322C72FEBD00F810B8 /* SortedEventListView.swift in Sources */,
 				27D400422BD0F03E003ABB1D /* MainView.swift in Sources */,
-				271DE91E2BD6717F005C6405 /* ImageCarouselView.swift in Sources */,
 				27D2A04B2BE8DA4E00D1FA38 /* WidgetCardView.swift in Sources */,
+				8DC0F62F2C72FC1200F810B8 /* RepeatPeriodPickerView.swift in Sources */,
+				8DC0F6412C73276900F810B8 /* AllDaySectionView.swift in Sources */,
 				27D400442BD0FB97003ABB1D /* EventEditorView.swift in Sources */,
 				8DC0F62B2C72EC0400F810B8 /* MediumWidgetListView.swift in Sources */,
 				27D2A08D2BEA36A100D1FA38 /* ViewModel+Event.swift in Sources */,
@@ -846,10 +914,9 @@
 				2788AA072BF222EA00E8AFBC /* EventInfoPickerView.swift in Sources */,
 				273ADCBE2C116F80006AC677 /* DaysUntilEventView.swift in Sources */,
 				273ADCAF2C116890006AC677 /* TimerView.swift in Sources */,
-				27D400572BD34EEB003ABB1D /* icons.swift in Sources */,
+				27D400572BD34EEB003ABB1D /* Icons.swift in Sources */,
 				27D2A0882BEA35B500D1FA38 /* ViewModel+TagModel.swift in Sources */,
 				27D400172BD0B0FB003ABB1D /* LemonCountdownApp.swift in Sources */,
-				271DE9202BD6B65A005C6405 /* TextEditView.swift in Sources */,
 				8DC0F6292C71378600F810B8 /* WidgetEntityQueryLarge.swift in Sources */,
 				27EE9EB62BFCADD800FAC2D3 /* WidgetTemplateSelectionView.swift in Sources */,
 				273ADCB52C116D44006AC677 /* WeekdayView.swift in Sources */,
@@ -873,7 +940,6 @@
 				27EE9E742BFC1F6F00FAC2D3 /* WidgetEntityQuerySmall.swift in Sources */,
 				27F099D82BEB65A800CDEBC8 /* WidgetCardView.swift in Sources */,
 				273ADCB92C116DF6006AC677 /* EventTitleView.swift in Sources */,
-				2788AA252BF476C000E8AFBC /* icons.swift in Sources */,
 				27F099B22BEB46AB00CDEBC8 /* AppIntent.swift in Sources */,
 				2788AA1B2BF3578D00E8AFBC /* LargeProvider.swift in Sources */,
 				273ADCBC2C116EDC006AC677 /* EventStartDate.swift in Sources */,
@@ -1274,6 +1340,22 @@
 				kind = branch;
 			};
 		};
+		8DC0F63A2C731D1E00F810B8 /* XCRemoteSwiftPackageReference "Defaults" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/Defaults.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		8DC0F6462C7328B000F810B8 /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1358,6 +1440,16 @@
 		8DC0F6242C712D1500F810B8 /* LemonCountdownModel */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = LemonCountdownModel;
+		};
+		8DC0F63B2C731D1E00F810B8 /* Defaults */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DC0F63A2C731D1E00F810B8 /* XCRemoteSwiftPackageReference "Defaults" */;
+			productName = Defaults;
+		};
+		8DC0F6472C7328B000F810B8 /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DC0F6462C7328B000F810B8 /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

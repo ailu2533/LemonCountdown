@@ -7,6 +7,7 @@
 
 import ConcentricOnboarding
 import CoreText
+import Defaults
 import LemonCountdownModel
 import LemonUtils
 import RevenueCat
@@ -21,7 +22,7 @@ struct LemonEventApp: App {
     var container = ModelUtilities.getModelContainer([EventModel.self, EventBackupModel.self, Tag.self, WidgetTemplateModel.self], isStoredInMemoryOnly: false)
     var vm: ViewModel
 
-    @AppStorage("shouldShowOnboarding") private var shouldShowOnboarding = true
+    @Default(.shouldShowOnboarding) var shouldShowOnboarding
 
     init() {
         vm = ViewModel(modelContext: container.mainContext)
@@ -80,7 +81,7 @@ extension LemonEventApp {
             (String(localized: "小号模板"), "smallTemplateModel.json", WidgetSize.small),
             (String(localized: "中号模板"), "mediumTemplateModel.json", WidgetSize.medium),
             (String(localized: "今天是周五吗"), "small-friday.json", WidgetSize.small),
-            (String(localized: "打工人1"), "small-worker.json", WidgetSize.small)
+            (String(localized: "打工人1"), "small-worker.json", WidgetSize.small),
         ]
 
         templates.forEach { title, path, size in
@@ -114,7 +115,7 @@ extension LemonEventApp {
     func loadFonts() {
         let fonts = [
             ("ChillRoundFBold", "otf"),
-            ("ChillRoundFRegular", "otf")
+            ("ChillRoundFRegular", "otf"),
         ]
         fonts.forEach { fontName, fontExtension in
             let success = loadFont(fontName: fontName, fontExtension: fontExtension)

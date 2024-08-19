@@ -1,5 +1,5 @@
 {
-  "originHash" : "6f6d27eac2a62fc928c9007157b3661a37786620553fef20c84bd07076418305",
+  "originHash" : "22a3480dd171b84fac3e766af68cb595e323e36b446cb36736e38e7683397e9a",
   "pins" : [
     {
       "identity" : "colorkit",
@@ -26,6 +26,15 @@
       "state" : {
         "revision" : "76d0840daab7288fc99b04a4c23d504f0394e083",
         "version" : "5.0.1"
+      }
+    },
+    {
+      "identity" : "defaults",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sindresorhus/Defaults.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "4c009d5c2496e7aa126e922c94dd3d6ae049efa2"
       }
     },
     {
@@ -116,6 +125,15 @@
       "state" : {
         "branch" : "main",
         "revision" : "d11b99a19070081716bf4585a0bbccbe703984cb"
+      }
+    },
+    {
+      "identity" : "swiftuix",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftUIX/SwiftUIX.git",
+      "state" : {
+        "revision" : "cdc902f828e8c457f601e744cc7607148dcdb91a",
+        "version" : "0.2.2"
       }
     }
   ],

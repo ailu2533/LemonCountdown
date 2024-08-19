@@ -62,16 +62,3 @@ let iconsMap: OrderedDictionary<String, [String]> = [
     String(localized: "动物"): animals
 ]
 
-let commonBackgroundImgs: [String] = [
-    "bg1",
-    "bg2",
-    "bg3",
-    "bg4",
-    "bg5",
-    "bg6",
-//    "father1",
-//    "birthday1",
-    "birthday2",
-//    "mother2",
-    "valentines2"
-]

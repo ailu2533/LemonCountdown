@@ -1497,6 +1497,7 @@
       }
     },
     "Render" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2189,9 +2190,6 @@
           }
         }
       }
-    },
-    "TODO" : {
-
     },
     "Untitled" : {
       "localizations" : {
@@ -4785,6 +4783,7 @@
       }
     },
     "小红书" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -8184,6 +8183,7 @@
       }
     },
     "生日" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -9024,6 +9024,7 @@
       }
     },
     "给我们好评" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -10087,6 +10088,7 @@
       }
     },
     "还有3天" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -10477,6 +10479,7 @@
       }
     },
     "问题反馈" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {

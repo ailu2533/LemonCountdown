@@ -27,6 +27,8 @@ struct WidgetCreationView: View {
     @State private var selectedTag: String?
     @State private var navigationPath = NavigationPath()
 
+    @State private var selectedTagUUID: UUID? = nil
+
     var filteredEvents: [EventModel] {
         Logging.shared.debug("filteredEvents \(selectedTag ?? "All")")
         return selectedTag.map { tag in events.filter { $0.tag?.title == tag } } ?? events
@@ -66,7 +68,7 @@ struct WidgetCreationView: View {
 
             .toolbar(content: {
                 ToolbarItem(placement: .topBarLeading) {
-                    TagSelectionMenu(selectedTag: $selectedTag, tags: tags)
+                    TagSelectionMenu(selectedTagUUID: $selectedTagUUID, tags: tags)
                 }
                 ToolbarItem {
                     Button {

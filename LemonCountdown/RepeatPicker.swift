@@ -10,7 +10,7 @@ import LemonUtils
 import SwiftUI
 
 struct ReminderPickerView: View {
-    @Environment(\.dismiss) private var dismiss
+//    @Environment(\.dismiss) private var dismiss
 
     private let data: [[String]] = [
         Array(1 ..< 24).map {
@@ -33,9 +33,9 @@ struct ReminderPickerView: View {
         }
     }
 }
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ReminderPickerView(selections: .constant([1, 1]))
-    }
-}
+//
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ReminderPickerView(selections: .constant([1, 1]))
+//    }
+//}

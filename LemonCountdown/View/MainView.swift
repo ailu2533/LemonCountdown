@@ -9,55 +9,25 @@ import LemonCountdownModel
 import LemonUtils
 import SwiftUI
 
-enum TabKind: Int {
-    case event
-    case widget
-    case settings
-}
-
 enum WidgetTemplateDetailTarget: Hashable {
     case widgetTemplateModel(WidgetTemplateModel)
 }
 
 struct MainView: View {
-    @State private var addEventSheet = false
+    @State private var selection: TabItem = .event
     @Environment(ViewModel.self) private var vm
 
-    @State private var selection = TabKind.event
-
     var body: some View {
-        @Bindable var vm = vm
-
         TabView(selection: $selection) {
-            NavigationStack(path: $vm.eventNavigationPath) {
-                EventListView(navigationTitle: Date().formatted(date: .abbreviated, time: .omitted))
-            }.tabItem {
-                Label("事件", systemImage: "calendar")
-            }.tag(TabKind.event)
-
-            NavigationStack(path: $vm.widgetNavigationPath) {
-                WidgetListView()
-                    .navigationDestination(for: WidgetTemplateDetailTarget.self, destination: { widgetTemplateDetailTarget in
-                        switch widgetTemplateDetailTarget {
-                        case let .widgetTemplateModel(widgetTemplateModel):
-                            WidgetTemplateDetailView(wt: widgetTemplateModel)
-                                .id(widgetTemplateModel.id)
-                        }
-                    })
-            }.tabItem {
-                Label("小组件", systemImage: "sun.haze")
-            }.tag(TabKind.widget)
-
-            TemplateListView().tabItem {
-                Label("模板", systemImage: "rectangle.stack")
+            ForEach(TabItem.allCases) { item in
+                item.tabView(vm: vm)
+                    .tabItem {
+                        Label(item.title, systemImage: item.icon)
+                    }
+                    .tag(item)
             }
-
-            NavigationStack {
-                TabSettingsView()
-            }.tabItem {
-                Label("设置", systemImage: "gear")
-            }.tag(TabKind.settings)
-        }.onAppear {
+        }
+        .onAppear {
             // correct the transparency bug for Tab bars
             let tabBarAppearance = UITabBarAppearance()
             tabBarAppearance.configureWithOpaqueBackground()
@@ -79,25 +49,17 @@ struct MainView: View {
                 let widget = WidgetTemplateModel.createWidgetTemplateModel(title: "测试", size: .medium)
                 vm.widgetNavigationPath.append(WidgetTemplateDetailTarget.widgetTemplateModel(widget))
             } else {
-                guard let widgetTemplateId = url.host else {
-                    return
-                }
-
-                guard let widgetTemplateModel = vm.queryWidgetTemplateModel(by: widgetTemplateId) else {
+                guard let widgetTemplateId = url.host,
+                      let widgetTemplateModel = vm.queryWidgetTemplateModel(by: widgetTemplateId) else {
                     return
                 }
 
                 selection = .widget
                 vm.widgetNavigationPath = NavigationPath()
-
                 vm.widgetNavigationPath.append(WidgetTemplateDetailTarget.widgetTemplateModel(widgetTemplateModel))
             }
         }
     }
-}
-
-#Preview {
-    CommonPreview(content: MainView())
 }
 
 extension URL {

@@ -27,9 +27,9 @@ struct RepeatPickerView: View {
             Section {
                 switch recurrenceType {
                 case .singleCycle:
-//                    RepeatPeriodPickerView(repeatPeriod: $repeatPeriod, repeatN: $repeatInterval)
-//                        .padding(.top, 20)
-                    Text("TODO")
+                    RepeatPeriodPickerView(repeatPeriod: $repeatPeriod, repeatN: $repeatInterval)
+                        .padding(.top, 20)
+
                 case .customWeekly:
 
                     List {
@@ -105,13 +105,7 @@ public func repeatText(recurrenceType: RecurrenceType, repeatPeriod: RepeatPerio
     }
 }
 
-let localizedWeekDays = [String(localized: "星期一", bundle: .main),
-                         String(localized: "星期二", bundle: .main),
-                         String(localized: "星期三", bundle: .main),
-                         String(localized: "星期四", bundle: .main),
-                         String(localized: "星期五", bundle: .main),
-                         String(localized: "星期六", bundle: .main),
-                         String(localized: "星期日", bundle: .main)]
+
 
 public func repeatTextCustomWeekly(repeatCustomWeekly: UInt8) -> String {
     var daysActive = [String]()

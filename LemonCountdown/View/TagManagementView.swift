@@ -6,14 +6,7 @@
 //
 
 import SwiftData
-// import PopupView
 import SwiftUI
-
-struct DummyView: View {
-    var body: some View {
-        TagManagementView()
-    }
-}
 
 struct TagManagementView: View {
     @Environment(ViewModel.self) private var vm
@@ -21,8 +14,6 @@ struct TagManagementView: View {
     @State private var inputTagTitle = ""
     @State private var tagTitles: [String] = []
     @State private var showToast = false
-
-//    @Query private var tags: [Tag]
 
     func getSelectedTag() -> String? {
         return UserDefaults.standard.string(forKey: "selectedTag")
