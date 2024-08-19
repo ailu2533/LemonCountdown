@@ -145,6 +145,15 @@
 		8DC0F6482C7328B000F810B8 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 8DC0F6472C7328B000F810B8 /* SwiftUIX */; };
 		8DC0F64A2C7329BF00F810B8 /* EventEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6492C7329BF00F810B8 /* EventEditorViewModel.swift */; };
 		8DC0F64D2C733F7E00F810B8 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F64C2C733F7E00F810B8 /* TabItem.swift */; };
+		8DC0F64F2C73470900F810B8 /* WidgetCardView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E06C62C02249A00202A5B /* WidgetCardView2.swift */; };
+		8DC0F6502C73474F00F810B8 /* CornerRadiusModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCEC2C131F79006AC677 /* CornerRadiusModifier.swift */; };
+		8DC0F6542C734B7E00F810B8 /* Control.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6532C734B7E00F810B8 /* Control.swift */; };
+		8DC0F6562C734B9B00F810B8 /* TextAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6552C734B9B00F810B8 /* TextAction.swift */; };
+		8DC0F6582C734BB800F810B8 /* TabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6572C734BB700F810B8 /* TabItemView.swift */; };
+		8DC0F65A2C734BCD00F810B8 /* BackgroundPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6592C734BCD00F810B8 /* BackgroundPickerView.swift */; };
+		8DC0F65D2C734D8700F810B8 /* WidgetEditorToolbarContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F65C2C734D8700F810B8 /* WidgetEditorToolbarContent.swift */; };
+		8DC0F65F2C734DAA00F810B8 /* WidgetEditorControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F65E2C734DAA00F810B8 /* WidgetEditorControlsView.swift */; };
+		8DC0F6612C734DC400F810B8 /* WidgetCardView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6602C734DC400F810B8 /* WidgetCardView3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -282,6 +291,13 @@
 		8DC0F6442C7327C700F810B8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8DC0F6492C7329BF00F810B8 /* EventEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditorViewModel.swift; sourceTree = "<group>"; };
 		8DC0F64C2C733F7E00F810B8 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		8DC0F6532C734B7E00F810B8 /* Control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Control.swift; sourceTree = "<group>"; };
+		8DC0F6552C734B9B00F810B8 /* TextAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAction.swift; sourceTree = "<group>"; };
+		8DC0F6572C734BB700F810B8 /* TabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemView.swift; sourceTree = "<group>"; };
+		8DC0F6592C734BCD00F810B8 /* BackgroundPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundPickerView.swift; sourceTree = "<group>"; };
+		8DC0F65C2C734D8700F810B8 /* WidgetEditorToolbarContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetEditorToolbarContent.swift; sourceTree = "<group>"; };
+		8DC0F65E2C734DAA00F810B8 /* WidgetEditorControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetEditorControlsView.swift; sourceTree = "<group>"; };
+		8DC0F6602C734DC400F810B8 /* WidgetCardView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetCardView3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -369,7 +385,6 @@
 			isa = PBXGroup;
 			children = (
 				274E06C32C0223B600202A5B /* MovableObjectView3.swift */,
-				274E06C62C02249A00202A5B /* WidgetCardView2.swift */,
 			);
 			path = WidgetPhaseEditor;
 			sourceTree = "<group>";
@@ -396,6 +411,7 @@
 		2788A9F12BEF836800E8AFBC /* Phase */ = {
 			isa = PBXGroup;
 			children = (
+				27EE9E4C2BF98D9600FAC2D3 /* TimeOffsetPickerView.swift */,
 				2788A9F22BEF837700E8AFBC /* PhaseSection.swift */,
 				27EE9E5B2BFAD7A500FAC2D3 /* PhaseSectionConfiguration.swift */,
 				27EE9E5F2BFAE3F600FAC2D3 /* PhaseSectionRowView.swift */,
@@ -544,14 +560,6 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
-		27EE9E4B2BF98D8300FAC2D3 /* Picker */ = {
-			isa = PBXGroup;
-			children = (
-				27EE9E4C2BF98D9600FAC2D3 /* TimeOffsetPickerView.swift */,
-			);
-			path = Picker;
-			sourceTree = "<group>";
-		};
 		27EE9E582BFAD36B00FAC2D3 /* WidgetEditor */ = {
 			isa = PBXGroup;
 			children = (
@@ -599,10 +607,10 @@
 		27F09A532BED2B2200CDEBC8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8DC0F64E2C73469F00F810B8 /* CommonView */,
 				273ADCAD2C116855006AC677 /* EventInfoView */,
 				27B7762C2C09794A008D5902 /* Premium */,
 				27EE9E582BFAD36B00FAC2D3 /* WidgetEditor */,
-				27EE9E4B2BF98D8300FAC2D3 /* Picker */,
 				27EE9E482BF8E16D00FAC2D3 /* Onboarding */,
 				2788AA222BF452C100E8AFBC /* Tip */,
 				2788A9F92BF1CFAE00E8AFBC /* Event */,
@@ -619,13 +627,12 @@
 		27F09A552BED2D5C00CDEBC8 /* WidgetTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				8DC0F6512C734B4000F810B8 /* WidgetPhaseEditorView */,
 				274E06C52C02247B00202A5B /* WidgetPhaseEditor */,
 				27EE9EB42BFCADB700FAC2D3 /* WidgetList */,
 				2788A9F12BEF836800E8AFBC /* Phase */,
 				27F099DA2BEB91E500CDEBC8 /* GradientView.swift */,
 				27B1F1DA2BE85EF600984542 /* WidgetTemplateDetailView.swift */,
-				27B1F1D02BE786FB00984542 /* WidgetPhaseEditorView.swift */,
-				27D2A04A2BE8DA4E00D1FA38 /* WidgetCardView.swift */,
 				27F099DE2BEC5A5600CDEBC8 /* StickerPickerView.swift */,
 				27F09A562BED300300CDEBC8 /* WidgetPhaseEditorHorizontalBarText.swift */,
 				27F09A582BED311200CDEBC8 /* TextStyleEditor.swift */,
@@ -680,6 +687,46 @@
 				27A63C132BE3C60C00F97B04 /* EventCardView.swift */,
 			);
 			path = EventCardView;
+			sourceTree = "<group>";
+		};
+		8DC0F64E2C73469F00F810B8 /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				274E06C62C02249A00202A5B /* WidgetCardView2.swift */,
+				27D2A04A2BE8DA4E00D1FA38 /* WidgetCardView.swift */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		8DC0F6512C734B4000F810B8 /* WidgetPhaseEditorView */ = {
+			isa = PBXGroup;
+			children = (
+				8DC0F65B2C734D7800F810B8 /* SubViews */,
+				8DC0F6522C734B6F00F810B8 /* Enum */,
+				27B1F1D02BE786FB00984542 /* WidgetPhaseEditorView.swift */,
+				8DC0F6572C734BB700F810B8 /* TabItemView.swift */,
+				8DC0F6592C734BCD00F810B8 /* BackgroundPickerView.swift */,
+			);
+			path = WidgetPhaseEditorView;
+			sourceTree = "<group>";
+		};
+		8DC0F6522C734B6F00F810B8 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				8DC0F6532C734B7E00F810B8 /* Control.swift */,
+				8DC0F6552C734B9B00F810B8 /* TextAction.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		8DC0F65B2C734D7800F810B8 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				8DC0F65C2C734D8700F810B8 /* WidgetEditorToolbarContent.swift */,
+				8DC0F65E2C734DAA00F810B8 /* WidgetEditorControlsView.swift */,
+				8DC0F6602C734DC400F810B8 /* WidgetCardView3.swift */,
+			);
+			path = SubViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -872,14 +919,18 @@
 				27EE9E522BF9C65900FAC2D3 /* PageView.swift in Sources */,
 				27EE9E602BFAE3F600FAC2D3 /* PhaseSectionRowView.swift in Sources */,
 				27EE9E672BFB546F00FAC2D3 /* WidgetCreationView.swift in Sources */,
+				8DC0F65A2C734BCD00F810B8 /* BackgroundPickerView.swift in Sources */,
 				8DC0F6262C71349A00F810B8 /* ModelHelper.swift in Sources */,
 				2788AA242BF453DA00E8AFBC /* ChangeIconTip.swift in Sources */,
 				27EE9E5E2BFAE3C700FAC2D3 /* HelperUtils.swift in Sources */,
 				2788A9F32BEF837700E8AFBC /* PhaseSection.swift in Sources */,
+				8DC0F6562C734B9B00F810B8 /* TextAction.swift in Sources */,
 				27D4005B2BD3B08F003ABB1D /* EventDayView.swift in Sources */,
 				8DC0F62D2C72F31800F810B8 /* ControlPanel.swift in Sources */,
+				8DC0F6612C734DC400F810B8 /* WidgetCardView3.swift in Sources */,
 				8DC0F64D2C733F7E00F810B8 /* TabItem.swift in Sources */,
 				273ADCC82C11EE2F006AC677 /* WidgetDetailTip.swift in Sources */,
+				8DC0F65D2C734D8700F810B8 /* WidgetEditorToolbarContent.swift in Sources */,
 				2788AA052BF2006A00E8AFBC /* StickerMap.swift in Sources */,
 				27EE9E5C2BFAD7A500FAC2D3 /* PhaseSectionConfiguration.swift in Sources */,
 				27EE9E4A2BF8E18C00FAC2D3 /* OnboardingPageData.swift in Sources */,
@@ -906,8 +957,10 @@
 				8DC0F6412C73276900F810B8 /* AllDaySectionView.swift in Sources */,
 				27D400442BD0FB97003ABB1D /* EventEditorView.swift in Sources */,
 				8DC0F62B2C72EC0400F810B8 /* MediumWidgetListView.swift in Sources */,
+				8DC0F65F2C734DAA00F810B8 /* WidgetEditorControlsView.swift in Sources */,
 				27D2A08D2BEA36A100D1FA38 /* ViewModel+Event.swift in Sources */,
 				27B7762E2C09795C008D5902 /* PremiumCard.swift in Sources */,
+				8DC0F6582C734BB800F810B8 /* TabItemView.swift in Sources */,
 				27F09A592BED311200CDEBC8 /* TextStyleEditor.swift in Sources */,
 				27D4004D2BD167A1003ABB1D /* ViewModel.swift in Sources */,
 				27F09A572BED300300CDEBC8 /* WidgetPhaseEditorHorizontalBarText.swift in Sources */,
@@ -915,6 +968,7 @@
 				273ADCBE2C116F80006AC677 /* DaysUntilEventView.swift in Sources */,
 				273ADCAF2C116890006AC677 /* TimerView.swift in Sources */,
 				27D400572BD34EEB003ABB1D /* Icons.swift in Sources */,
+				8DC0F6542C734B7E00F810B8 /* Control.swift in Sources */,
 				27D2A0882BEA35B500D1FA38 /* ViewModel+TagModel.swift in Sources */,
 				27D400172BD0B0FB003ABB1D /* LemonCountdownApp.swift in Sources */,
 				8DC0F6292C71378600F810B8 /* WidgetEntityQueryLarge.swift in Sources */,
@@ -938,8 +992,10 @@
 				27EE9E762BFC1F7400FAC2D3 /* WidgetEntityQueryLarge.swift in Sources */,
 				27EE9E752BFC1F7100FAC2D3 /* WidgetEntityQueryMedium.swift in Sources */,
 				27EE9E742BFC1F6F00FAC2D3 /* WidgetEntityQuerySmall.swift in Sources */,
+				8DC0F6502C73474F00F810B8 /* CornerRadiusModifier.swift in Sources */,
 				27F099D82BEB65A800CDEBC8 /* WidgetCardView.swift in Sources */,
 				273ADCB92C116DF6006AC677 /* EventTitleView.swift in Sources */,
+				8DC0F64F2C73470900F810B8 /* WidgetCardView2.swift in Sources */,
 				27F099B22BEB46AB00CDEBC8 /* AppIntent.swift in Sources */,
 				2788AA1B2BF3578D00E8AFBC /* LargeProvider.swift in Sources */,
 				273ADCBC2C116EDC006AC677 /* EventStartDate.swift in Sources */,
