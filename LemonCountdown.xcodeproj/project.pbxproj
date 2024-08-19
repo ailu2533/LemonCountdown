@@ -41,7 +41,7 @@
 		274E06C72C02249A00202A5B /* WidgetCardView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E06C62C02249A00202A5B /* WidgetCardView2.swift */; };
 		274E06CB2C0480EB00202A5B /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 274E06CA2C0480EB00202A5B /* .swiftlint.yml */; };
 		276917E32BE223C10077B498 /* RepeatPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276917E22BE223C10077B498 /* RepeatPicker.swift */; };
-		276918032BE324020077B498 /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276918022BE324020077B498 /* EventListView.swift */; };
+		276918032BE324020077B498 /* TopLevelEventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276918022BE324020077B498 /* TopLevelEventListView.swift */; };
 		2788A9EE2BEE40EF00E8AFBC /* WidgetTemplatePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788A9ED2BEE40EF00E8AFBC /* WidgetTemplatePreview.swift */; };
 		2788A9F02BEE4ABC00E8AFBC /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788A9EF2BEE4ABC00E8AFBC /* Logging.swift */; };
 		2788A9F32BEF837700E8AFBC /* PhaseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788A9F22BEF837700E8AFBC /* PhaseSection.swift */; };
@@ -198,7 +198,7 @@
 		274E06CA2C0480EB00202A5B /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		276917E22BE223C10077B498 /* RepeatPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatPicker.swift; sourceTree = "<group>"; };
 		276917E42BE2553C0077B498 /* changelog.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = changelog.md; sourceTree = "<group>"; };
-		276918022BE324020077B498 /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
+		276918022BE324020077B498 /* TopLevelEventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopLevelEventListView.swift; sourceTree = "<group>"; };
 		2788A9ED2BEE40EF00E8AFBC /* WidgetTemplatePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTemplatePreview.swift; sourceTree = "<group>"; };
 		2788A9EF2BEE4ABC00E8AFBC /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
 		2788A9F22BEF837700E8AFBC /* PhaseSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseSection.swift; sourceTree = "<group>"; };
@@ -641,7 +641,7 @@
 			isa = PBXGroup;
 			children = (
 				8DC0F64B2C733CA000F810B8 /* EventCardView */,
-				276918022BE324020077B498 /* EventListView.swift */,
+				276918022BE324020077B498 /* TopLevelEventListView.swift */,
 				8DC0F6312C72FEBD00F810B8 /* SortedEventListView.swift */,
 				8DC0F6332C72FED600F810B8 /* TagSelectionMenu.swift */,
 				8DC0F6352C72FEE800F810B8 /* AddEventButton.swift */,
@@ -864,7 +864,7 @@
 				27EE9E622BFAEEE600FAC2D3 /* PhaseSectionRowConfiguration.swift in Sources */,
 				2788A9EE2BEE40EF00E8AFBC /* WidgetTemplatePreview.swift in Sources */,
 				27B1F1D12BE786FB00984542 /* WidgetPhaseEditorView.swift in Sources */,
-				276918032BE324020077B498 /* EventListView.swift in Sources */,
+				276918032BE324020077B498 /* TopLevelEventListView.swift in Sources */,
 				27D400522BD1CF90003ABB1D /* CommonPreview.swift in Sources */,
 				27B1F1D52BE85B1000984542 /* WidgetListView.swift in Sources */,
 				273ADCC12C1184ED006AC677 /* WidgetTemplateListView.swift in Sources */,

@@ -25,3 +25,5 @@ let localizedWeekDays = [String(localized: "星期一", bundle: .main),
                          String(localized: "星期五", bundle: .main),
                          String(localized: "星期六", bundle: .main),
                          String(localized: "星期日", bundle: .main)]
+
+let allTagTitle = String(localized: "全部事件")

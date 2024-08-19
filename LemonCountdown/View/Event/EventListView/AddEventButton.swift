@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct AddEventButton: View {
-    @Binding var addEventSheet: Bool
+    @Binding var isAddEventPresented: Bool
 
     var body: some View {
         Button(action: {
-            addEventSheet = true
+            isAddEventPresented = true
         }) {
             Image(systemName: "calendar.badge.plus")
         }

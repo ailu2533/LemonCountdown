@@ -40,9 +40,9 @@ enum TabItem: Int, CaseIterable, Identifiable {
 
         switch self {
         case .event:
-            NavigationStack(path: $vm.eventNavigationPath) {
-                EventListView(showAddButton: true, navigationTitle: Date().formatted(date: .abbreviated, time: .omitted))
-            }
+
+            TopLevelEventListView()
+
         case .widget:
             NavigationStack(path: $vm.widgetNavigationPath) {
                 WidgetListView()
