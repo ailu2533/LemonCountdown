@@ -6,11 +6,13 @@
 //
 
 import LemonCountdownModel
+import SwiftData
 import SwiftUI
 
 struct TagSelectionMenu: View {
     @Binding var selectedTagUUID: UUID?
-    let tags: [Tag]
+
+    @Query(sort: \Tag.sortValue) private var tags: [Tag] = []
 
     private var selectedTagTitle: String {
         selectedTagUUID.flatMap { uuid in

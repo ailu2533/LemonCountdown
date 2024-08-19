@@ -27,3 +27,5 @@ let localizedWeekDays = [String(localized: "星期一", bundle: .main),
                          String(localized: "星期日", bundle: .main)]
 
 let allTagTitle = String(localized: "全部事件")
+
+let defaultFillStyle = AnyShapeStyle(LinearGradient(colors: [.blue, .blue.opacity(0.6), .cyan], startPoint: .topLeading, endPoint: .bottomTrailing))

@@ -18,7 +18,6 @@ struct TopLevelEventListView: View {
     @Environment(ViewModel.self) private var vm
     @State private var isAddEventPresented = false
     @State private var selectedEvent: EventModel?
-    @Query(sort: \Tag.sortValue) private var tags: [Tag] = []
     @Query private var events: [EventModel] = []
     @Default(.selectedTagUUID) var selectedTagUUID
 
@@ -55,7 +54,7 @@ struct TopLevelEventListView: View {
     @ToolbarContentBuilder
     private var toolbarContent: some ToolbarContent {
         ToolbarItem(placement: .topBarLeading) {
-            TagSelectionMenu(selectedTagUUID: $selectedTagUUID, tags: tags)
+            TagSelectionMenu(selectedTagUUID: $selectedTagUUID)
         }
         if showAddButton {
             ToolbarItem(placement: .topBarTrailing) {
