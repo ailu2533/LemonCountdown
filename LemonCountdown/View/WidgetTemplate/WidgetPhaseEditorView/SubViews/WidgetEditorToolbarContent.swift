@@ -5,15 +5,24 @@
 //  Created by Lu Ai on 2024/8/19.
 //
 
-import SwiftUI
 import LemonCountdownModel
+import SwiftUI
 
 struct WidgetEditorToolbarContent: ToolbarContent {
-    let canDeleted: Bool
+    private var canDeleted: Bool
     let widgetTemplate: WidgetTemplate
     let phase: WidgetPhase
-    let dismiss: DismissAction
     let saveAction: () -> Void
+
+    @Environment(\.dismiss)
+    private var dismiss
+
+    init(widgetTemplate: WidgetTemplate, phase: WidgetPhase, saveAction: @escaping () -> Void) {
+        canDeleted = widgetTemplate.checkCanBeDeleted(phase: phase)
+        self.widgetTemplate = widgetTemplate
+        self.phase = phase
+        self.saveAction = saveAction
+    }
 
     var body: some ToolbarContent {
         if canDeleted {

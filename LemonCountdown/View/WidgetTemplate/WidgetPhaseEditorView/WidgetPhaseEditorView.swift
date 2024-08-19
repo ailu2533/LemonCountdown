@@ -39,153 +39,48 @@ struct WidgetPhaseEditorView: View {
         self.phase = phase
     }
 
-    // State variables for managing UI interactions and selections.
-    @State private var selected: MovableObject?
-    @State private var selectedImage = ""
-    @State private var selectedControl: Control = .background
-    @State private var selectedBackgroundKind = BackgroundKind.linearGredient
-
-    @State private var selectedFontName: String?
-    @State private var fontSize: CGFloat = 20
-
     // Environment variables for managing app state and interactions.
     @Environment(\.scenePhase) private var scenePhase
     @Environment(\.dismiss) private var dismiss
     @Environment(\.modelContext) private var modelContext
     @Environment(ViewModel.self) private var vm
 
-    @State private var selectedSticker: String = stickerMap.keys.elements.first ?? ""
-
-    @State private var highlightX = false
-    @State private var highlightY = false
-
-    @State private var shouldShowGuildline = true
-
-    @State private var showInputText = false
-
-    @State private var text = ""
-    @State private var canDeleted = false
-
-    var draggingState = DraggingState()
+    @State private var editorViewModel = WidgetPhaseEditorViewModel()
 
     var body: some View {
         NavigationStack {
             GeometryReader { _ in
                 VStack {
                     Spacer()
-                    WidgetCardView3(phase: phase, widgetSize: widgetSize, selected: $selected, highlightX: $highlightX, highlightY: $highlightY, draggingState: draggingState)
+                    WidgetPhaseEditorCardView(phase: phase, widgetSize: widgetSize, selected: $editorViewModel.selectedMovableObjectUUID)
                     Spacer()
-                    WidgetEditorControlsView(selectedControl: $selectedControl, selectedSticker: $selectedSticker, showInputText: $showInputText, selectedBackgroundKind: $selectedBackgroundKind, phase: phase, selected: $selected, selectedImage: $selectedImage, selectedFontName: $selectedFontName, fontSize: $fontSize, addSticker: addSticker, addEventInfo: addEventInfo, height: height)
+                    WidgetEditorControlsView(phase: phase, vm: editorViewModel, height: height)
                 }
             }
             .toolbar {
-                WidgetEditorToolbarContent(canDeleted: canDeleted, widgetTemplate: widgetTemplate, phase: phase, dismiss: dismiss, saveAction: saveWidgetTemplateModel)
+                WidgetEditorToolbarContent(widgetTemplate: widgetTemplate, phase: phase, saveAction: editorViewModel.saveWidgetTemplateModel)
             }
         }
-        .environment(draggingState)
         .ignoresSafeArea(.all, edges: .bottom)
-        .onDisappear(perform: saveWidgetTemplateModel)
+        .onDisappear(perform: editorViewModel.saveWidgetTemplateModel)
         .onChange(of: scenePhase) { oldValue, newValue in
             if oldValue == .active && newValue == .inactive {
-                saveWidgetTemplateModel()
+                editorViewModel.saveWidgetTemplateModel()
             }
         }
-        .alert("输入文字", isPresented: $showInputText) {
+        .alert("输入文字", isPresented: $editorViewModel.showInputText) {
             textInputAlert
         }
-        .onChange(of: selected, perform: updateSelectionDetails)
-        .onAppear {
-            canDeleted = widgetTemplate.checkCanBeDeleted(phase: phase)
+        .onChange(of: editorViewModel.selected, perform: editorViewModel.updateSelectionDetails)
+        .onAppearOnce {
+            editorViewModel.configure(widgetTemplate: widgetTemplate, phase: phase, modelContext: modelContext, widgetCenter: widgetCenter)
         }
     }
 
+    @ViewBuilder
     private var textInputAlert: some View {
-        Group {
-            TextField("", text: $text)
-            Button("取消", role: .cancel) { }
-            Button("确定", action: addTextItem)
-        }
-    }
-
-    private func addTextItem() {
-        let textItem = TextItem(text: text, pos: widgetCenter)
-        phase.texts.append(textItem)
-        selected = textItem
-        text = ""
-    }
-
-    // Saves the model when the view disappears or the scene phase changes.
-    fileprivate func saveWidgetTemplateModel() {
-        Logging.openUrl.debug("saveWidgetTemplateModel: TODO")
-
-        if let model = widgetTemplate.getWidgetTemplateModel() {
-            if model.modelContext == nil {
-                print("insert Model")
-                modelContext.insert(model)
-            }
-
-            if model.isDeleted {
-                return
-            }
-
-            model.jsonData = WidgetTemplateModel.encodeWidgetTemplate(widgetTemplate)
-            Logging.openUrl.debug("jsonData: \(model.jsonData)")
-            Logging.openUrl.debug("saveWidgetTemplateModel: \(model.title) \(model.uuid) template: \(widgetTemplate.hashValue)")
-
-            // TODO: 优化
-            WidgetCenter.shared.reloadAllTimelines()
-        }
-    }
-
-    // Adds a sticker to the phase when selected.
-    fileprivate func addSticker(_ iconName: String) {
-        let image = MovableSticker(stickerName: iconName, pos: widgetCenter)
-        phase.stickers.append(image)
-        selected = image
-    }
-
-    func addEventInfo(_ eventInfo: EventInfoKind) {
-        // 根据用户的地区和 meta info type 决定fontName
-        // widgetSize 决定fontSize
-
-        // ChillRoundFRegular
-        var fontName: String? = "ChillRoundFRegular"
-        var fontSize: CGFloat = 20
-
-        if eventInfo == .eventTitle {
-            fontSize = 25
-        } else if eventInfo == .currentWeekDay {
-            fontSize = 20
-        } else {
-            fontName = "ChillRoundFRegular"
-        }
-
-        let mf = EventInfo(eventInfo: eventInfo, eventInfoProvider: phase.getEventInfoProvider(), position: widgetCenter, fontName: fontName, fontSize: fontSize)
-        phase.eventInfo.append(mf)
-        selected = mf
-    }
-
-    // Handles the change in selected control and creates a new text item if needed.
-    fileprivate func handleTextSelectionChange(oldValue: Control, newValue: Control) {
-        if oldValue != .text && newValue == .text && selected as? TextItem == nil {
-            createAndSelectNewTextItem()
-        }
-    }
-
-    // Updates the selection details based on the selected object.
-    fileprivate func updateSelectionDetails(_ newValue: MovableObject?) {
-        guard let newValue = newValue else { return }
-        selectedControl = switch newValue {
-        case is TextItem: .text
-        case is MovableSticker: .sticker
-        default: selectedControl
-        }
-    }
-
-    // Creates and selects a new text item when needed.
-    fileprivate func createAndSelectNewTextItem() {
-        let textItem = TextItem(text: String(localized: "双击编辑文案"), pos: widgetCenter)
-        phase.texts.append(textItem)
-        selected = textItem
+        TextField("", text: $editorViewModel.text)
+        Button("取消", role: .cancel) { }
+        Button("确定", action: editorViewModel.addTextItem)
     }
 }

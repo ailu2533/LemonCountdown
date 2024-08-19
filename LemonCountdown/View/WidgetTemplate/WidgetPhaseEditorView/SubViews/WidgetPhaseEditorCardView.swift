@@ -6,26 +6,35 @@
 //
 
 import LemonCountdownModel
+import LemonUtils
 import SwiftMovable
 import SwiftUI
-import LemonUtils
 
 // New subviews
-struct WidgetCardView3: View {
+struct WidgetPhaseEditorCardView: View {
     let phase: WidgetPhase
     let widgetSize: CGSize
-    @Binding var selected: MovableObject?
-    @Binding var highlightX: Bool
-    @Binding var highlightY: Bool
-    let draggingState: DraggingState
+//    @Binding var selected: MovableObject?
+
+    @Binding var selectedMovableObjectUUID: UUID?
+
+    var draggingState = DraggingState()
+    init(phase: WidgetPhase, widgetSize: CGSize, selected: Binding<UUID?>) {
+        self.phase = phase
+        self.widgetSize = widgetSize
+        _selectedMovableObjectUUID = selected
+    }
+
+    @State var highlightX: Bool = false
+    @State var highlightY: Bool = false
 
     var body: some View {
         ZStack {
             Color(.systemBackground)
                 .onTapGesture {
-                    selected = nil
+                    selectedMovableObjectUUID = nil
                 }
-            WidgetCardView2(model: phase, widgetSize: widgetSize, selected: .constant(nil))
+            EditableWidgetCardView(model: phase, widgetSize: widgetSize, selected: $selectedMovableObjectUUID)
                 .overlayPreferenceValue(ViewSizeKey.self) { preferences in
                     GeometryReader { geometry in
                         preferences.map {
@@ -38,10 +47,10 @@ struct WidgetCardView3: View {
                     }
                 }
                 .sensoryFeedback(.impact(flexibility: .rigid, intensity: 0.5), trigger: highlightX, condition: { oldValue, newValue in
-                    !oldValue && newValue && selected != nil
+                    !oldValue && newValue && selectedMovableObjectUUID != nil
                 })
                 .sensoryFeedback(.impact(flexibility: .rigid, intensity: 0.5), trigger: highlightY, condition: { oldValue, newValue in
-                    !oldValue && newValue && selected != nil
+                    !oldValue && newValue && selectedMovableObjectUUID != nil
                 })
                 .overlay(content: {
                     Line().stroke(lineWidth: 1.0).frame(width: widgetSize.width, height: 1)
@@ -53,5 +62,6 @@ struct WidgetCardView3: View {
                         .opacity(highlightX && draggingState.isDragging ? 1 : 0)
                 })
         }
+        .environment(draggingState)
     }
 }

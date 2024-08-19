@@ -15,13 +15,12 @@ class DraggingState {
     var isDragging = false
 }
 
-struct WidgetCardView2: View {
+struct EditableWidgetCardView: View {
     var phase: WidgetPhase // Model containing data for the view
     var widgetSize: CGSize // Size of the widget
     var enableModify: Bool // Flag to enable modification of the widget elements
 //    var fillStyle: AnyShapeStyle // The fill style for the widget background
 
-//    var background: Background
 
     @Binding var selected: UUID? // Currently selected movable object
 
