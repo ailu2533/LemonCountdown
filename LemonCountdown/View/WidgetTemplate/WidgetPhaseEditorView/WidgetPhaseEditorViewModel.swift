@@ -15,8 +15,8 @@ import WidgetKit
 class WidgetPhaseEditorViewModel {
     // MARK: - 属性
 
-    var selected: MovableObject?
-    var selectedMovableObjectUUID: UUID?
+    var selection: MovableObject?
+//    var selectedMovableObjectUUID: UUID?
     var selectedImage = ""
     var selectedControl: Control = .background
     var selectedBackgroundKind = BackgroundKind.linearGredient
@@ -47,8 +47,9 @@ class WidgetPhaseEditorViewModel {
 
     func addTextItem() {
         let textItem = TextItem(text: text, pos: widgetCenter)
+        
         phase.texts.append(textItem)
-        selected = textItem
+        selection = textItem
         text = ""
     }
 
@@ -79,19 +80,19 @@ class WidgetPhaseEditorViewModel {
     func addSticker(_ iconName: String) {
         let image = MovableSticker(stickerName: iconName, pos: widgetCenter)
         phase.stickers.append(image)
-        selected = image
+        selection = image
     }
 
     func addEventInfo(_ eventInfo: EventInfoKind) {
         let (fontName, fontSize) = getFontSettings(for: eventInfo)
         let mf = EventInfo(eventInfo: eventInfo, eventInfoProvider: phase.getEventInfoProvider(), position: widgetCenter, fontName: fontName, fontSize: fontSize)
         phase.eventInfo.append(mf)
-        selected = mf
+        selection = mf
     }
 
     // Handles the change in selected control and creates a new text item if needed.
     func handleTextSelectionChange(oldValue: Control, newValue: Control) {
-        if oldValue != .text && newValue == .text && selected as? TextItem == nil {
+        if oldValue != .text && newValue == .text && selection as? TextItem == nil {
             createAndSelectNewTextItem()
         }
     }
@@ -110,7 +111,7 @@ class WidgetPhaseEditorViewModel {
     func createAndSelectNewTextItem() {
         let textItem = TextItem(text: String(localized: "双击编辑文案"), pos: widgetCenter)
         phase.texts.append(textItem)
-        selected = textItem
+        selection = textItem
     }
 
     // MARK: - 私有方法

@@ -10,6 +10,7 @@ import LemonCountdownModel
 import LemonDateUtils
 import LemonUtils
 import SwiftUI
+import SwiftWidgetEditorKit
 
 // MARK: - Phase Section View
 
@@ -33,8 +34,10 @@ struct PhaseSectionRowView: View {
             PhaseTimeEditorView(config: config, phase: phase)
         }
         .fullScreenCover(isPresented: $showFullScreen) {
-            WidgetPhaseEditorView(phase: phase, widgetSize: config.widgetSize)
+            WidgetPhaseEditorView(phase: phase, widgetSize: config.widgetSize) {
+                _ in
+                print("TODO")
+            }
         }
     }
 }
-

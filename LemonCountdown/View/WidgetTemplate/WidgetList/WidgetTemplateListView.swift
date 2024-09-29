@@ -90,7 +90,7 @@ private struct MediumTemplateListView: View {
     private func mediumWidgetView(_ widget: WidgetTemplateModel) -> some View {
         VStack {
             NavigationLink {
-                WidgetTemplateDetailView(wt: widget)
+                WidgetTemplateDetailView(widgetTemplateModel: widget)
             } label: {
                 WidgetTemplatePreview(widgetTempletModel: widget)
                     .overlay(content: {

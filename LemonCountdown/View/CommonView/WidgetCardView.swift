@@ -9,6 +9,7 @@ import Foundation
 import LemonCountdownModel
 import SwiftMovable
 import SwiftUI
+import SwiftWidgetEditorKit
 
 struct WidgetCardView: View {
     var phase: WidgetPhase // Model containing data for the view
@@ -28,19 +29,19 @@ struct WidgetCardView: View {
             .overlay {
                 ZStack {
                     // Configuration for movable objects (stickers, texts, event info)
-                    let stickerConfig = MovableObjectViewConfig.Builder().setIsEnabled(false)
+                    let stickerConfig = MovableObjectViewConfig<MovableSticker>.Builder().setIsEnabled(false)
                         .setOnDelete { item in
                             phase.stickers.removeAll { $0.id == item.id }
                         }
                         .build()
 
-                    let textConfig = MovableObjectViewConfig.Builder().setIsEnabled(false)
+                    let textConfig = MovableObjectViewConfig<TextItem>.Builder().setIsEnabled(false)
                         .setOnDelete { item in
                             phase.texts.removeAll { $0.id == item.id }
                         }
                         .build()
 
-                    let eventInfoConfig = MovableObjectViewConfig.Builder().setIsEnabled(false)
+                    let eventInfoConfig = MovableObjectViewConfig<EventInfo>.Builder().setIsEnabled(false)
                         .setOnDelete { item in
                             phase.eventInfo.removeAll { $0.id == item.id }
                         }

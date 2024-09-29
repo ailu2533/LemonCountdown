@@ -14,32 +14,15 @@
 		271DE8D62BD41246005C6405 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 271DE8D52BD41246005C6405 /* InfoPlist.xcstrings */; };
 		27264E352BE520F100DC08BB /* TagManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27264E342BE520F100DC08BB /* TagManagementView.swift */; };
 		27264E742BE5D9CD00DC08BB /* Shift in Frameworks */ = {isa = PBXBuildFile; productRef = 27264E732BE5D9CD00DC08BB /* Shift */; };
-		273ADCA52C108213006AC677 /* EventInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCA42C108213006AC677 /* EventInfoView.swift */; };
-		273ADCA62C108464006AC677 /* EventInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCA42C108213006AC677 /* EventInfoView.swift */; };
 		273ADCAB2C112F07006AC677 /* Digital Dismay.otf in Resources */ = {isa = PBXBuildFile; fileRef = 273ADCAA2C112F07006AC677 /* Digital Dismay.otf */; };
 		273ADCAC2C112F07006AC677 /* Digital Dismay.otf in Resources */ = {isa = PBXBuildFile; fileRef = 273ADCAA2C112F07006AC677 /* Digital Dismay.otf */; };
-		273ADCAF2C116890006AC677 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCAE2C116890006AC677 /* TimerView.swift */; };
-		273ADCB02C116AD3006AC677 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCAE2C116890006AC677 /* TimerView.swift */; };
-		273ADCB22C116BFA006AC677 /* DaysSinceEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCB12C116BFA006AC677 /* DaysSinceEventView.swift */; };
-		273ADCB32C116BFA006AC677 /* DaysSinceEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCB12C116BFA006AC677 /* DaysSinceEventView.swift */; };
-		273ADCB52C116D44006AC677 /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCB42C116D44006AC677 /* WeekdayView.swift */; };
-		273ADCB62C116D44006AC677 /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCB42C116D44006AC677 /* WeekdayView.swift */; };
-		273ADCB82C116DF6006AC677 /* EventTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCB72C116DF6006AC677 /* EventTitleView.swift */; };
-		273ADCB92C116DF6006AC677 /* EventTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCB72C116DF6006AC677 /* EventTitleView.swift */; };
-		273ADCBB2C116EDC006AC677 /* EventStartDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCBA2C116EDC006AC677 /* EventStartDate.swift */; };
-		273ADCBC2C116EDC006AC677 /* EventStartDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCBA2C116EDC006AC677 /* EventStartDate.swift */; };
-		273ADCBE2C116F80006AC677 /* DaysUntilEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCBD2C116F80006AC677 /* DaysUntilEventView.swift */; };
-		273ADCBF2C116F80006AC677 /* DaysUntilEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCBD2C116F80006AC677 /* DaysUntilEventView.swift */; };
 		273ADCC12C1184ED006AC677 /* WidgetTemplateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCC02C1184ED006AC677 /* WidgetTemplateListView.swift */; };
 		273ADCC62C11D42B006AC677 /* CreateWidgetTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCC52C11D42B006AC677 /* CreateWidgetTip.swift */; };
 		273ADCC82C11EE2F006AC677 /* WidgetDetailTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCC72C11EE2F006AC677 /* WidgetDetailTip.swift */; };
 		273ADCCA2C11FE28006AC677 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCC92C11FE28006AC677 /* TutorialView.swift */; };
-		273ADCED2C131F79006AC677 /* CornerRadiusModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCEC2C131F79006AC677 /* CornerRadiusModifier.swift */; };
 		273ADDA52C17BA2C006AC677 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 273ADDA42C17BA2C006AC677 /* RevenueCat */; };
 		273ADDA72C17BA2C006AC677 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 273ADDA62C17BA2C006AC677 /* RevenueCatUI */; };
-		274E06C72C02249A00202A5B /* EditableWidgetCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E06C62C02249A00202A5B /* EditableWidgetCardView.swift */; };
 		274E06CB2C0480EB00202A5B /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 274E06CA2C0480EB00202A5B /* .swiftlint.yml */; };
-		276917E32BE223C10077B498 /* RepeatPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276917E22BE223C10077B498 /* RepeatPicker.swift */; };
 		276918032BE324020077B498 /* TopLevelEventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276918022BE324020077B498 /* TopLevelEventListView.swift */; };
 		2788A9EE2BEE40EF00E8AFBC /* WidgetTemplatePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788A9ED2BEE40EF00E8AFBC /* WidgetTemplatePreview.swift */; };
 		2788A9F02BEE4ABC00E8AFBC /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788A9EF2BEE4ABC00E8AFBC /* Logging.swift */; };
@@ -49,8 +32,6 @@
 		2788A9FF2BF1DE9300E8AFBC /* ColorSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788A9FE2BF1DE9300E8AFBC /* ColorSectionView.swift */; };
 		2788AA012BF1DEA900E8AFBC /* NotificationSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788AA002BF1DEA900E8AFBC /* NotificationSectionView.swift */; };
 		2788AA032BF1DEBB00E8AFBC /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788AA022BF1DEBA00E8AFBC /* IconView.swift */; };
-		2788AA052BF2006A00E8AFBC /* StickerMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788AA042BF2006A00E8AFBC /* StickerMap.swift */; };
-		2788AA072BF222EA00E8AFBC /* EventInfoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788AA062BF222EA00E8AFBC /* EventInfoPickerView.swift */; };
 		2788AA192BF3578000E8AFBC /* MediumProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788AA182BF3578000E8AFBC /* MediumProvider.swift */; };
 		2788AA1B2BF3578D00E8AFBC /* LargeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788AA1A2BF3578D00E8AFBC /* LargeProvider.swift */; };
 		2788AA1E2BF3581600E8AFBC /* MediumWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788AA1D2BF3581600E8AFBC /* MediumWidget.swift */; };
@@ -58,9 +39,7 @@
 		2788AA262BF49CD500E8AFBC /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788A9EF2BEE4ABC00E8AFBC /* Logging.swift */; };
 		27A63C142BE3C60C00F97B04 /* EventCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A63C132BE3C60C00F97B04 /* EventCardView.swift */; };
 		27B1F1C12BE76D0800984542 /* LemonUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 27B1F1C02BE76D0800984542 /* LemonUtils */; };
-		27B1F1D12BE786FB00984542 /* WidgetPhaseEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B1F1D02BE786FB00984542 /* WidgetPhaseEditorView.swift */; };
 		27B1F1D52BE85B1000984542 /* WidgetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B1F1D42BE85B1000984542 /* WidgetListView.swift */; };
-		27B1F1DB2BE85EF600984542 /* WidgetTemplateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B1F1DA2BE85EF600984542 /* WidgetTemplateDetailView.swift */; };
 		27B775E22C075632008D5902 /* LemonUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 27B775E12C075632008D5902 /* LemonUtils */; };
 		27B775E42C075643008D5902 /* LemonUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 27B775E32C075643008D5902 /* LemonUtils */; };
 		27B776282C083E3A008D5902 /* WidgetTemplateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B776272C083E3A008D5902 /* WidgetTemplateViewModel.swift */; };
@@ -116,10 +95,6 @@
 		27F099CC2BEB49A800CDEBC8 /* ModelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2A0932BEB2EDD00D1FA38 /* ModelHelper.swift */; };
 		27F099CE2BEB49CF00CDEBC8 /* Shift in Frameworks */ = {isa = PBXBuildFile; productRef = 27F099CD2BEB49CF00CDEBC8 /* Shift */; };
 		27F099D82BEB65A800CDEBC8 /* WidgetCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2A04A2BE8DA4E00D1FA38 /* WidgetCardView.swift */; };
-		27F099DB2BEB91E500CDEBC8 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F099DA2BEB91E500CDEBC8 /* GradientView.swift */; };
-		27F099DF2BEC5A5600CDEBC8 /* StickerPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F099DE2BEC5A5600CDEBC8 /* StickerPickerView.swift */; };
-		27F09A572BED300300CDEBC8 /* WidgetPhaseEditorHorizontalBarText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F09A562BED300300CDEBC8 /* WidgetPhaseEditorHorizontalBarText.swift */; };
-		27F09A592BED311200CDEBC8 /* TextStyleEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F09A582BED311200CDEBC8 /* TextStyleEditor.swift */; };
 		8D19328C2C70F85500F9D2A4 /* HorizontalPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 8D19328B2C70F85500F9D2A4 /* HorizontalPicker */; };
 		8D1932952C711B5200F9D2A4 /* LemonCountdownModel in Frameworks */ = {isa = PBXBuildFile; productRef = 8D1932942C711B5200F9D2A4 /* LemonCountdownModel */; };
 		8DC0F6252C712D1500F810B8 /* LemonCountdownModel in Frameworks */ = {isa = PBXBuildFile; productRef = 8DC0F6242C712D1500F810B8 /* LemonCountdownModel */; };
@@ -128,7 +103,6 @@
 		8DC0F6282C71378400F810B8 /* WidgetEntityQuerySmall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EE9E6E2BFBA5C100FAC2D3 /* WidgetEntityQuerySmall.swift */; };
 		8DC0F6292C71378600F810B8 /* WidgetEntityQueryLarge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EE9E722BFBA5E500FAC2D3 /* WidgetEntityQueryLarge.swift */; };
 		8DC0F62B2C72EC0400F810B8 /* MediumWidgetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F62A2C72EC0400F810B8 /* MediumWidgetListView.swift */; };
-		8DC0F62D2C72F31800F810B8 /* ControlPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F62C2C72F31800F810B8 /* ControlPanel.swift */; };
 		8DC0F62F2C72FC1200F810B8 /* RepeatPeriodPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F62E2C72FC1200F810B8 /* RepeatPeriodPickerView.swift */; };
 		8DC0F6322C72FEBD00F810B8 /* SortedEventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6312C72FEBD00F810B8 /* SortedEventListView.swift */; };
 		8DC0F6342C72FED600F810B8 /* TagSelectionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6332C72FED600F810B8 /* TagSelectionMenu.swift */; };
@@ -142,15 +116,6 @@
 		8DC0F6482C7328B000F810B8 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 8DC0F6472C7328B000F810B8 /* SwiftUIX */; };
 		8DC0F64A2C7329BF00F810B8 /* EventEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6492C7329BF00F810B8 /* EventEditorViewModel.swift */; };
 		8DC0F64D2C733F7E00F810B8 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F64C2C733F7E00F810B8 /* TabItem.swift */; };
-		8DC0F6502C73474F00F810B8 /* CornerRadiusModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ADCEC2C131F79006AC677 /* CornerRadiusModifier.swift */; };
-		8DC0F6542C734B7E00F810B8 /* Control.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6532C734B7E00F810B8 /* Control.swift */; };
-		8DC0F6562C734B9B00F810B8 /* TextAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6552C734B9B00F810B8 /* TextAction.swift */; };
-		8DC0F6582C734BB800F810B8 /* TabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6572C734BB700F810B8 /* TabItemView.swift */; };
-		8DC0F65A2C734BCD00F810B8 /* BackgroundPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6592C734BCD00F810B8 /* BackgroundPickerView.swift */; };
-		8DC0F65D2C734D8700F810B8 /* WidgetEditorToolbarContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F65C2C734D8700F810B8 /* WidgetEditorToolbarContent.swift */; };
-		8DC0F65F2C734DAA00F810B8 /* WidgetEditorControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F65E2C734DAA00F810B8 /* WidgetEditorControlsView.swift */; };
-		8DC0F6612C734DC400F810B8 /* WidgetPhaseEditorCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6602C734DC400F810B8 /* WidgetPhaseEditorCardView.swift */; };
-		8DC0F6642C7355BE00F810B8 /* WidgetPhaseEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6632C7355BE00F810B8 /* WidgetPhaseEditorViewModel.swift */; };
 		8DC0F6962C7391A700F810B8 /* SwiftMovable in Frameworks */ = {isa = PBXBuildFile; productRef = 8DC0F6952C7391A700F810B8 /* SwiftMovable */; };
 		8DC0F6982C73998E00F810B8 /* PhaseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6972C73998E00F810B8 /* PhaseRow.swift */; };
 		8DC0F69A2C7399B200F810B8 /* AbsolutePhaseTimeEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6992C7399B200F810B8 /* AbsolutePhaseTimeEditor.swift */; };
@@ -159,6 +124,13 @@
 		8DC0F6A12C739B9000F810B8 /* PhaseTimeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6A02C739B9000F810B8 /* PhaseTimeEditorView.swift */; };
 		8DC0F6A32C739BC000F810B8 /* TimeDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6A22C739BC000F810B8 /* TimeDisplayView.swift */; };
 		8DC0F6A52C739BF200F810B8 /* WidgetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6A42C739BF200F810B8 /* WidgetButton.swift */; };
+		8DC0F6A82C739F0800F810B8 /* WidgetTemplateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6A72C739F0800F810B8 /* WidgetTemplateDetailView.swift */; };
+		8DC0F6AA2C739F8E00F810B8 /* EventBackupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6A92C739F8E00F810B8 /* EventBackupView.swift */; };
+		8DC0F6AD2C739FCC00F810B8 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6AC2C739FCC00F810B8 /* Date+.swift */; };
+		8DC0F6AF2C73A13B00F810B8 /* PhaseSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6AE2C73A13B00F810B8 /* PhaseSectionView.swift */; };
+		8DC0F6B12C73A1FB00F810B8 /* EventBackupSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0F6B02C73A1FB00F810B8 /* EventBackupSheetView.swift */; };
+		8DC0F7A52C77502700F810B8 /* SwiftWidgetEditorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8DC0F7A42C77502700F810B8 /* SwiftWidgetEditorKit */; };
+		8DCF89A12C77531B00F72BBB /* SwiftWidgetEditorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8DCF89A02C77531B00F72BBB /* SwiftWidgetEditorKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -191,25 +163,15 @@
 		271DE8D52BD41246005C6405 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		271DE8DB2BD5FABA005C6405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		27264E342BE520F100DC08BB /* TagManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagManagementView.swift; sourceTree = "<group>"; };
-		273ADCA42C108213006AC677 /* EventInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInfoView.swift; sourceTree = "<group>"; };
 		273ADCAA2C112F07006AC677 /* Digital Dismay.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Digital Dismay.otf"; sourceTree = "<group>"; };
-		273ADCAE2C116890006AC677 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
-		273ADCB12C116BFA006AC677 /* DaysSinceEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysSinceEventView.swift; sourceTree = "<group>"; };
-		273ADCB42C116D44006AC677 /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
-		273ADCB72C116DF6006AC677 /* EventTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTitleView.swift; sourceTree = "<group>"; };
-		273ADCBA2C116EDC006AC677 /* EventStartDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventStartDate.swift; sourceTree = "<group>"; };
-		273ADCBD2C116F80006AC677 /* DaysUntilEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysUntilEventView.swift; sourceTree = "<group>"; };
 		273ADCC02C1184ED006AC677 /* WidgetTemplateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTemplateListView.swift; sourceTree = "<group>"; };
 		273ADCC52C11D42B006AC677 /* CreateWidgetTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWidgetTip.swift; sourceTree = "<group>"; };
 		273ADCC72C11EE2F006AC677 /* WidgetDetailTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetDetailTip.swift; sourceTree = "<group>"; };
 		273ADCC92C11FE28006AC677 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
-		273ADCEC2C131F79006AC677 /* CornerRadiusModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusModifier.swift; sourceTree = "<group>"; };
 		273ADCEE2C13264F006AC677 /* keys.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = keys.md; sourceTree = "<group>"; };
 		274CDBAD2BE1D28A00255350 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = /System/Library/Frameworks/WidgetKit.framework; sourceTree = "<absolute>"; };
 		274CDBAF2BE1D28A00255350 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = /System/Library/Frameworks/SwiftUI.framework; sourceTree = "<absolute>"; };
-		274E06C62C02249A00202A5B /* EditableWidgetCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableWidgetCardView.swift; sourceTree = "<group>"; };
 		274E06CA2C0480EB00202A5B /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
-		276917E22BE223C10077B498 /* RepeatPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatPicker.swift; sourceTree = "<group>"; };
 		276917E42BE2553C0077B498 /* changelog.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = changelog.md; sourceTree = "<group>"; };
 		276918022BE324020077B498 /* TopLevelEventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopLevelEventListView.swift; sourceTree = "<group>"; };
 		2788A9ED2BEE40EF00E8AFBC /* WidgetTemplatePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTemplatePreview.swift; sourceTree = "<group>"; };
@@ -220,16 +182,12 @@
 		2788A9FE2BF1DE9300E8AFBC /* ColorSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSectionView.swift; sourceTree = "<group>"; };
 		2788AA002BF1DEA900E8AFBC /* NotificationSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSectionView.swift; sourceTree = "<group>"; };
 		2788AA022BF1DEBA00E8AFBC /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
-		2788AA042BF2006A00E8AFBC /* StickerMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerMap.swift; sourceTree = "<group>"; };
-		2788AA062BF222EA00E8AFBC /* EventInfoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInfoPickerView.swift; sourceTree = "<group>"; };
 		2788AA182BF3578000E8AFBC /* MediumProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumProvider.swift; sourceTree = "<group>"; };
 		2788AA1A2BF3578D00E8AFBC /* LargeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeProvider.swift; sourceTree = "<group>"; };
 		2788AA1D2BF3581600E8AFBC /* MediumWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumWidget.swift; sourceTree = "<group>"; };
 		2788AA232BF453DA00E8AFBC /* ChangeIconTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeIconTip.swift; sourceTree = "<group>"; };
 		27A63C132BE3C60C00F97B04 /* EventCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCardView.swift; sourceTree = "<group>"; };
-		27B1F1D02BE786FB00984542 /* WidgetPhaseEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetPhaseEditorView.swift; sourceTree = "<group>"; };
 		27B1F1D42BE85B1000984542 /* WidgetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetListView.swift; sourceTree = "<group>"; };
-		27B1F1DA2BE85EF600984542 /* WidgetTemplateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTemplateDetailView.swift; sourceTree = "<group>"; };
 		27B776272C083E3A008D5902 /* WidgetTemplateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTemplateViewModel.swift; sourceTree = "<group>"; };
 		27B776292C08B345008D5902 /* 柠檬倒数纪念.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = "柠檬倒数纪念.storekit"; sourceTree = "<group>"; };
 		27B7762A2C08B4C2008D5902 /* StoreKitTestCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = StoreKitTestCertificate.cer; sourceTree = "<group>"; };
@@ -278,12 +236,7 @@
 		27F099D52BEB54D300CDEBC8 /* LemonCountdownRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LemonCountdownRelease.entitlements; sourceTree = "<group>"; };
 		27F099D62BEB54EA00CDEBC8 /* WidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetsExtension.entitlements; sourceTree = "<group>"; };
 		27F099D72BEB54F000CDEBC8 /* LemonCountdownWidgetsExtensionRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LemonCountdownWidgetsExtensionRelease.entitlements; sourceTree = "<group>"; };
-		27F099DA2BEB91E500CDEBC8 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
-		27F099DE2BEC5A5600CDEBC8 /* StickerPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerPickerView.swift; sourceTree = "<group>"; };
-		27F09A562BED300300CDEBC8 /* WidgetPhaseEditorHorizontalBarText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetPhaseEditorHorizontalBarText.swift; sourceTree = "<group>"; };
-		27F09A582BED311200CDEBC8 /* TextStyleEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyleEditor.swift; sourceTree = "<group>"; };
 		8DC0F62A2C72EC0400F810B8 /* MediumWidgetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumWidgetListView.swift; sourceTree = "<group>"; };
-		8DC0F62C2C72F31800F810B8 /* ControlPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanel.swift; sourceTree = "<group>"; };
 		8DC0F62E2C72FC1200F810B8 /* RepeatPeriodPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatPeriodPickerView.swift; sourceTree = "<group>"; };
 		8DC0F6312C72FEBD00F810B8 /* SortedEventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedEventListView.swift; sourceTree = "<group>"; };
 		8DC0F6332C72FED600F810B8 /* TagSelectionMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagSelectionMenu.swift; sourceTree = "<group>"; };
@@ -295,15 +248,7 @@
 		8DC0F6442C7327C700F810B8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8DC0F6492C7329BF00F810B8 /* EventEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditorViewModel.swift; sourceTree = "<group>"; };
 		8DC0F64C2C733F7E00F810B8 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
-		8DC0F6532C734B7E00F810B8 /* Control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Control.swift; sourceTree = "<group>"; };
-		8DC0F6552C734B9B00F810B8 /* TextAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAction.swift; sourceTree = "<group>"; };
-		8DC0F6572C734BB700F810B8 /* TabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemView.swift; sourceTree = "<group>"; };
-		8DC0F6592C734BCD00F810B8 /* BackgroundPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundPickerView.swift; sourceTree = "<group>"; };
-		8DC0F65C2C734D8700F810B8 /* WidgetEditorToolbarContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetEditorToolbarContent.swift; sourceTree = "<group>"; };
-		8DC0F65E2C734DAA00F810B8 /* WidgetEditorControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetEditorControlsView.swift; sourceTree = "<group>"; };
-		8DC0F6602C734DC400F810B8 /* WidgetPhaseEditorCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetPhaseEditorCardView.swift; sourceTree = "<group>"; };
 		8DC0F6622C734EF000F810B8 /* .gitignore.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = .gitignore.md; sourceTree = "<group>"; };
-		8DC0F6632C7355BE00F810B8 /* WidgetPhaseEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetPhaseEditorViewModel.swift; sourceTree = "<group>"; };
 		8DC0F6972C73998E00F810B8 /* PhaseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseRow.swift; sourceTree = "<group>"; };
 		8DC0F6992C7399B200F810B8 /* AbsolutePhaseTimeEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutePhaseTimeEditor.swift; sourceTree = "<group>"; };
 		8DC0F69C2C739B5500F810B8 /* AbsolutePhaseTimeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutePhaseTimeEditorView.swift; sourceTree = "<group>"; };
@@ -311,6 +256,11 @@
 		8DC0F6A02C739B9000F810B8 /* PhaseTimeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseTimeEditorView.swift; sourceTree = "<group>"; };
 		8DC0F6A22C739BC000F810B8 /* TimeDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDisplayView.swift; sourceTree = "<group>"; };
 		8DC0F6A42C739BF200F810B8 /* WidgetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetButton.swift; sourceTree = "<group>"; };
+		8DC0F6A72C739F0800F810B8 /* WidgetTemplateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTemplateDetailView.swift; sourceTree = "<group>"; };
+		8DC0F6A92C739F8E00F810B8 /* EventBackupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventBackupView.swift; sourceTree = "<group>"; };
+		8DC0F6AC2C739FCC00F810B8 /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		8DC0F6AE2C73A13B00F810B8 /* PhaseSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseSectionView.swift; sourceTree = "<group>"; };
+		8DC0F6B02C73A1FB00F810B8 /* EventBackupSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventBackupSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -320,6 +270,7 @@
 			files = (
 				27C313AD2BE36B290001D6CD /* PagerTabStripView in Frameworks */,
 				27B1F1C12BE76D0800984542 /* LemonUtils in Frameworks */,
+				8DC0F7A52C77502700F810B8 /* SwiftWidgetEditorKit in Frameworks */,
 				27B775E22C075632008D5902 /* LemonUtils in Frameworks */,
 				27264E742BE5D9CD00DC08BB /* Shift in Frameworks */,
 				8D1932952C711B5200F9D2A4 /* LemonCountdownModel in Frameworks */,
@@ -343,6 +294,7 @@
 				27F099A92BEB46AB00CDEBC8 /* SwiftUI.framework in Frameworks */,
 				27F099A82BEB46AB00CDEBC8 /* WidgetKit.framework in Frameworks */,
 				27BCB6DE2C04A70200662159 /* LemonUtils in Frameworks */,
+				8DCF89A12C77531B00F72BBB /* SwiftWidgetEditorKit in Frameworks */,
 				27F099CE2BEB49CF00CDEBC8 /* Shift in Frameworks */,
 				27B7775A2C0F9DA1008D5902 /* LemonUtils in Frameworks */,
 				27B775E42C075643008D5902 /* LemonUtils in Frameworks */,
@@ -362,28 +314,6 @@
 			path = fonts;
 			sourceTree = "<group>";
 		};
-		273ADCAD2C116855006AC677 /* EventInfoView */ = {
-			isa = PBXGroup;
-			children = (
-				273ADCA42C108213006AC677 /* EventInfoView.swift */,
-				273ADCAE2C116890006AC677 /* TimerView.swift */,
-				273ADCB12C116BFA006AC677 /* DaysSinceEventView.swift */,
-				273ADCB42C116D44006AC677 /* WeekdayView.swift */,
-				273ADCB72C116DF6006AC677 /* EventTitleView.swift */,
-				273ADCBA2C116EDC006AC677 /* EventStartDate.swift */,
-				273ADCBD2C116F80006AC677 /* DaysUntilEventView.swift */,
-			);
-			path = EventInfoView;
-			sourceTree = "<group>";
-		};
-		273ADCEB2C131F5A006AC677 /* ViewModifier */ = {
-			isa = PBXGroup;
-			children = (
-				273ADCEC2C131F79006AC677 /* CornerRadiusModifier.swift */,
-			);
-			path = ViewModifier;
-			sourceTree = "<group>";
-		};
 		274CDBAC2BE1D28A00255350 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -391,15 +321,6 @@
 				274CDBAF2BE1D28A00255350 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		276917E12BE223B20077B498 /* Picker */ = {
-			isa = PBXGroup;
-			children = (
-				276917E22BE223C10077B498 /* RepeatPicker.swift */,
-			);
-			name = Picker;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		276918012BE323EE0077B498 /* TabView */ = {
@@ -415,6 +336,7 @@
 		2788A9F12BEF836800E8AFBC /* Phase */ = {
 			isa = PBXGroup;
 			children = (
+				8DC0F6A62C739EE800F810B8 /* WidgetTemplateDetailView */,
 				8DC0F69B2C739B3F00F810B8 /* PhaseSectionRowView */,
 				27EE9E4C2BF98D9600FAC2D3 /* TimeOffsetPickerView.swift */,
 				2788A9F22BEF837700E8AFBC /* PhaseSection.swift */,
@@ -526,8 +448,8 @@
 		27D400152BD0B0FB003ABB1D /* LemonCountdown */ = {
 			isa = PBXGroup;
 			children = (
+				8DC0F6AB2C739FC000F810B8 /* Extentions */,
 				8DC0F6372C7300A700F810B8 /* Model */,
-				273ADCEB2C131F5A006AC677 /* ViewModifier */,
 				274E06CA2C0480EB00202A5B /* .swiftlint.yml */,
 				270EE1152BFF69E700006150 /* fonts */,
 				27F09A532BED2B2200CDEBC8 /* View */,
@@ -614,9 +536,7 @@
 		27F09A532BED2B2200CDEBC8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8DC0F6932C738AFB00F810B8 /* CanvasEditor */,
 				8DC0F64E2C73469F00F810B8 /* CommonView */,
-				273ADCAD2C116855006AC677 /* EventInfoView */,
 				27B7762C2C09794A008D5902 /* Premium */,
 				27EE9E582BFAD36B00FAC2D3 /* WidgetEditor */,
 				27EE9E482BF8E16D00FAC2D3 /* Onboarding */,
@@ -626,7 +546,6 @@
 				27D400412BD0F03E003ABB1D /* MainView.swift */,
 				27264E342BE520F100DC08BB /* TagManagementView.swift */,
 				276918012BE323EE0077B498 /* TabView */,
-				276917E12BE223B20077B498 /* Picker */,
 				8DC0F64C2C733F7E00F810B8 /* TabItem.swift */,
 			);
 			path = View;
@@ -635,18 +554,9 @@
 		27F09A552BED2D5C00CDEBC8 /* WidgetTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				8DC0F6512C734B4000F810B8 /* WidgetPhaseEditorView */,
 				27EE9EB42BFCADB700FAC2D3 /* WidgetList */,
 				2788A9F12BEF836800E8AFBC /* Phase */,
-				27F099DA2BEB91E500CDEBC8 /* GradientView.swift */,
-				27B1F1DA2BE85EF600984542 /* WidgetTemplateDetailView.swift */,
-				27F099DE2BEC5A5600CDEBC8 /* StickerPickerView.swift */,
-				27F09A562BED300300CDEBC8 /* WidgetPhaseEditorHorizontalBarText.swift */,
-				27F09A582BED311200CDEBC8 /* TextStyleEditor.swift */,
 				2788A9ED2BEE40EF00E8AFBC /* WidgetTemplatePreview.swift */,
-				2788AA042BF2006A00E8AFBC /* StickerMap.swift */,
-				2788AA062BF222EA00E8AFBC /* EventInfoPickerView.swift */,
-				8DC0F62C2C72F31800F810B8 /* ControlPanel.swift */,
 			);
 			path = WidgetTemplate;
 			sourceTree = "<group>";
@@ -704,46 +614,6 @@
 			path = CommonView;
 			sourceTree = "<group>";
 		};
-		8DC0F6512C734B4000F810B8 /* WidgetPhaseEditorView */ = {
-			isa = PBXGroup;
-			children = (
-				8DC0F65B2C734D7800F810B8 /* SubViews */,
-				8DC0F6522C734B6F00F810B8 /* Enum */,
-				27B1F1D02BE786FB00984542 /* WidgetPhaseEditorView.swift */,
-				8DC0F6572C734BB700F810B8 /* TabItemView.swift */,
-				8DC0F6592C734BCD00F810B8 /* BackgroundPickerView.swift */,
-				8DC0F6632C7355BE00F810B8 /* WidgetPhaseEditorViewModel.swift */,
-			);
-			path = WidgetPhaseEditorView;
-			sourceTree = "<group>";
-		};
-		8DC0F6522C734B6F00F810B8 /* Enum */ = {
-			isa = PBXGroup;
-			children = (
-				8DC0F6532C734B7E00F810B8 /* Control.swift */,
-				8DC0F6552C734B9B00F810B8 /* TextAction.swift */,
-			);
-			path = Enum;
-			sourceTree = "<group>";
-		};
-		8DC0F65B2C734D7800F810B8 /* SubViews */ = {
-			isa = PBXGroup;
-			children = (
-				8DC0F65C2C734D8700F810B8 /* WidgetEditorToolbarContent.swift */,
-				8DC0F65E2C734DAA00F810B8 /* WidgetEditorControlsView.swift */,
-				8DC0F6602C734DC400F810B8 /* WidgetPhaseEditorCardView.swift */,
-			);
-			path = SubViews;
-			sourceTree = "<group>";
-		};
-		8DC0F6932C738AFB00F810B8 /* CanvasEditor */ = {
-			isa = PBXGroup;
-			children = (
-				274E06C62C02249A00202A5B /* EditableWidgetCardView.swift */,
-			);
-			path = CanvasEditor;
-			sourceTree = "<group>";
-		};
 		8DC0F69B2C739B3F00F810B8 /* PhaseSectionRowView */ = {
 			isa = PBXGroup;
 			children = (
@@ -755,6 +625,25 @@
 				8DC0F6A42C739BF200F810B8 /* WidgetButton.swift */,
 			);
 			path = PhaseSectionRowView;
+			sourceTree = "<group>";
+		};
+		8DC0F6A62C739EE800F810B8 /* WidgetTemplateDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				8DC0F6A72C739F0800F810B8 /* WidgetTemplateDetailView.swift */,
+				8DC0F6A92C739F8E00F810B8 /* EventBackupView.swift */,
+				8DC0F6AE2C73A13B00F810B8 /* PhaseSectionView.swift */,
+				8DC0F6B02C73A1FB00F810B8 /* EventBackupSheetView.swift */,
+			);
+			path = WidgetTemplateDetailView;
+			sourceTree = "<group>";
+		};
+		8DC0F6AB2C739FC000F810B8 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				8DC0F6AC2C739FCC00F810B8 /* Date+.swift */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -790,6 +679,7 @@
 				8DC0F63B2C731D1E00F810B8 /* Defaults */,
 				8DC0F6472C7328B000F810B8 /* SwiftUIX */,
 				8DC0F6952C7391A700F810B8 /* SwiftMovable */,
+				8DC0F7A42C77502700F810B8 /* SwiftWidgetEditorKit */,
 			);
 			productName = LemonCountdown;
 			productReference = 27D400132BD0B0FB003ABB1D /* LemonCountdown.app */;
@@ -814,6 +704,7 @@
 				27B775E32C075643008D5902 /* LemonUtils */,
 				27B777592C0F9DA1008D5902 /* LemonUtils */,
 				8DC0F6242C712D1500F810B8 /* LemonCountdownModel */,
+				8DCF89A02C77531B00F72BBB /* SwiftWidgetEditorKit */,
 			);
 			productName = WidgetsExtension;
 			productReference = 27F099A72BEB46AB00CDEBC8 /* WidgetsExtension.appex */;
@@ -871,6 +762,7 @@
 				8DC0F63A2C731D1E00F810B8 /* XCRemoteSwiftPackageReference "Defaults" */,
 				8DC0F6462C7328B000F810B8 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
 				8DC0F6942C7391A700F810B8 /* XCLocalSwiftPackageReference "../../Archive/SwiftMovable" */,
+				8DC0F7A32C77502700F810B8 /* XCLocalSwiftPackageReference "../SwiftWidgetEditorKit" */,
 			);
 			productRefGroup = 27D400142BD0B0FB003ABB1D /* Products */;
 			projectDirPath = "";
@@ -920,26 +812,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27F099DF2BEC5A5600CDEBC8 /* StickerPickerView.swift in Sources */,
 				2788A9F02BEE4ABC00E8AFBC /* Logging.swift in Sources */,
 				27B776282C083E3A008D5902 /* WidgetTemplateViewModel.swift in Sources */,
 				8DC0F6362C72FEE800F810B8 /* AddEventButton.swift in Sources */,
-				27F099DB2BEB91E500CDEBC8 /* GradientView.swift in Sources */,
-				27B1F1DB2BE85EF600984542 /* WidgetTemplateDetailView.swift in Sources */,
 				2788A9FF2BF1DE9300E8AFBC /* ColorSectionView.swift in Sources */,
-				276917E32BE223C10077B498 /* RepeatPicker.swift in Sources */,
 				2788A9FD2BF1DE5B00E8AFBC /* NotificationPickerView.swift in Sources */,
 				8DC0F64A2C7329BF00F810B8 /* EventEditorViewModel.swift in Sources */,
 				27C3139D2BE328E80001D6CD /* TabSettingsView.swift in Sources */,
 				8DC0F69A2C7399B200F810B8 /* AbsolutePhaseTimeEditor.swift in Sources */,
-				273ADCBB2C116EDC006AC677 /* EventStartDate.swift in Sources */,
+				8DC0F6AD2C739FCC00F810B8 /* Date+.swift in Sources */,
 				8DC0F6392C7300C500F810B8 /* Defaults.swift in Sources */,
-				273ADCB22C116BFA006AC677 /* DaysSinceEventView.swift in Sources */,
 				27EE9E622BFAEEE600FAC2D3 /* PhaseSectionRowConfiguration.swift in Sources */,
 				2788A9EE2BEE40EF00E8AFBC /* WidgetTemplatePreview.swift in Sources */,
-				27B1F1D12BE786FB00984542 /* WidgetPhaseEditorView.swift in Sources */,
 				276918032BE324020077B498 /* TopLevelEventListView.swift in Sources */,
 				27D400522BD1CF90003ABB1D /* CommonPreview.swift in Sources */,
+				8DC0F6AF2C73A13B00F810B8 /* PhaseSectionView.swift in Sources */,
 				27B1F1D52BE85B1000984542 /* WidgetListView.swift in Sources */,
 				273ADCC12C1184ED006AC677 /* WidgetTemplateListView.swift in Sources */,
 				8DC0F6272C71377D00F810B8 /* WidgetEntityQueryMedium.swift in Sources */,
@@ -947,27 +834,20 @@
 				27EE9E522BF9C65900FAC2D3 /* PageView.swift in Sources */,
 				27EE9E602BFAE3F600FAC2D3 /* PhaseSectionRowView.swift in Sources */,
 				27EE9E672BFB546F00FAC2D3 /* WidgetCreationView.swift in Sources */,
-				8DC0F65A2C734BCD00F810B8 /* BackgroundPickerView.swift in Sources */,
 				8DC0F6262C71349A00F810B8 /* ModelHelper.swift in Sources */,
 				2788AA242BF453DA00E8AFBC /* ChangeIconTip.swift in Sources */,
 				27EE9E5E2BFAE3C700FAC2D3 /* HelperUtils.swift in Sources */,
 				2788A9F32BEF837700E8AFBC /* PhaseSection.swift in Sources */,
-				8DC0F6562C734B9B00F810B8 /* TextAction.swift in Sources */,
+				8DC0F6B12C73A1FB00F810B8 /* EventBackupSheetView.swift in Sources */,
 				27D4005B2BD3B08F003ABB1D /* EventDayView.swift in Sources */,
-				8DC0F62D2C72F31800F810B8 /* ControlPanel.swift in Sources */,
-				8DC0F6612C734DC400F810B8 /* WidgetPhaseEditorCardView.swift in Sources */,
+				8DC0F6AA2C739F8E00F810B8 /* EventBackupView.swift in Sources */,
 				8DC0F64D2C733F7E00F810B8 /* TabItem.swift in Sources */,
 				273ADCC82C11EE2F006AC677 /* WidgetDetailTip.swift in Sources */,
-				8DC0F65D2C734D8700F810B8 /* WidgetEditorToolbarContent.swift in Sources */,
-				8DC0F6642C7355BE00F810B8 /* WidgetPhaseEditorViewModel.swift in Sources */,
-				2788AA052BF2006A00E8AFBC /* StickerMap.swift in Sources */,
 				27EE9E5C2BFAD7A500FAC2D3 /* PhaseSectionConfiguration.swift in Sources */,
 				27EE9E4A2BF8E18C00FAC2D3 /* OnboardingPageData.swift in Sources */,
-				273ADCED2C131F79006AC677 /* CornerRadiusModifier.swift in Sources */,
 				8DC0F6A12C739B9000F810B8 /* PhaseTimeEditorView.swift in Sources */,
 				8DC0F6452C7327C700F810B8 /* Constants.swift in Sources */,
 				27A63C142BE3C60C00F97B04 /* EventCardView.swift in Sources */,
-				273ADCB82C116DF6006AC677 /* EventTitleView.swift in Sources */,
 				8DC0F6432C73279500F810B8 /* TagSectionView.swift in Sources */,
 				273ADCCA2C11FE28006AC677 /* TutorialView.swift in Sources */,
 				273ADCC62C11D42B006AC677 /* CreateWidgetTip.swift in Sources */,
@@ -988,29 +868,19 @@
 				8DC0F6412C73276900F810B8 /* AllDaySectionView.swift in Sources */,
 				27D400442BD0FB97003ABB1D /* EventEditorView.swift in Sources */,
 				8DC0F62B2C72EC0400F810B8 /* MediumWidgetListView.swift in Sources */,
-				8DC0F65F2C734DAA00F810B8 /* WidgetEditorControlsView.swift in Sources */,
 				27D2A08D2BEA36A100D1FA38 /* ViewModel+Event.swift in Sources */,
 				27B7762E2C09795C008D5902 /* PremiumCard.swift in Sources */,
-				8DC0F6582C734BB800F810B8 /* TabItemView.swift in Sources */,
-				27F09A592BED311200CDEBC8 /* TextStyleEditor.swift in Sources */,
 				27D4004D2BD167A1003ABB1D /* ViewModel.swift in Sources */,
-				27F09A572BED300300CDEBC8 /* WidgetPhaseEditorHorizontalBarText.swift in Sources */,
-				2788AA072BF222EA00E8AFBC /* EventInfoPickerView.swift in Sources */,
-				273ADCBE2C116F80006AC677 /* DaysUntilEventView.swift in Sources */,
+				8DC0F6A82C739F0800F810B8 /* WidgetTemplateDetailView.swift in Sources */,
 				8DC0F6A52C739BF200F810B8 /* WidgetButton.swift in Sources */,
-				273ADCAF2C116890006AC677 /* TimerView.swift in Sources */,
 				27D400572BD34EEB003ABB1D /* Icons.swift in Sources */,
 				8DC0F69F2C739B7200F810B8 /* RelativePhaseTimeEditorView.swift in Sources */,
-				8DC0F6542C734B7E00F810B8 /* Control.swift in Sources */,
 				27D2A0882BEA35B500D1FA38 /* ViewModel+TagModel.swift in Sources */,
 				27D400172BD0B0FB003ABB1D /* LemonCountdownApp.swift in Sources */,
 				8DC0F6292C71378600F810B8 /* WidgetEntityQueryLarge.swift in Sources */,
 				27EE9EB62BFCADD800FAC2D3 /* WidgetTemplateSelectionView.swift in Sources */,
-				273ADCB52C116D44006AC677 /* WeekdayView.swift in Sources */,
 				27B776302C09D483008D5902 /* MembershipManager.swift in Sources */,
 				2788AA012BF1DEA900E8AFBC /* NotificationSectionView.swift in Sources */,
-				274E06C72C02249A00202A5B /* EditableWidgetCardView.swift in Sources */,
-				273ADCA52C108213006AC677 /* EventInfoView.swift in Sources */,
 				8DC0F69D2C739B5500F810B8 /* AbsolutePhaseTimeEditorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1021,26 +891,18 @@
 			files = (
 				2788AA262BF49CD500E8AFBC /* Logging.swift in Sources */,
 				2788AA1E2BF3581600E8AFBC /* MediumWidget.swift in Sources */,
-				273ADCBF2C116F80006AC677 /* DaysUntilEventView.swift in Sources */,
 				27F099CB2BEB497600CDEBC8 /* SmallProvider.swift in Sources */,
 				27EE9E762BFC1F7400FAC2D3 /* WidgetEntityQueryLarge.swift in Sources */,
 				27EE9E752BFC1F7100FAC2D3 /* WidgetEntityQueryMedium.swift in Sources */,
 				27EE9E742BFC1F6F00FAC2D3 /* WidgetEntityQuerySmall.swift in Sources */,
-				8DC0F6502C73474F00F810B8 /* CornerRadiusModifier.swift in Sources */,
 				27F099D82BEB65A800CDEBC8 /* WidgetCardView.swift in Sources */,
-				273ADCB92C116DF6006AC677 /* EventTitleView.swift in Sources */,
 				27F099B22BEB46AB00CDEBC8 /* AppIntent.swift in Sources */,
 				2788AA1B2BF3578D00E8AFBC /* LargeProvider.swift in Sources */,
-				273ADCBC2C116EDC006AC677 /* EventStartDate.swift in Sources */,
 				27F099B02BEB46AB00CDEBC8 /* SmallWidget.swift in Sources */,
-				273ADCB32C116BFA006AC677 /* DaysSinceEventView.swift in Sources */,
 				27F099CC2BEB49A800CDEBC8 /* ModelHelper.swift in Sources */,
-				273ADCB02C116AD3006AC677 /* TimerView.swift in Sources */,
 				27F099AC2BEB46AB00CDEBC8 /* WidgetsBundle.swift in Sources */,
 				2788AA192BF3578000E8AFBC /* MediumProvider.swift in Sources */,
-				273ADCB62C116D44006AC677 /* WeekdayView.swift in Sources */,
 				27EE9E072BF7ADF700FAC2D3 /* WidgetTip.swift in Sources */,
-				273ADCA62C108464006AC677 /* EventInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1191,6 +1053,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_OPTIMIZATION = space;
 				CODE_SIGN_ENTITLEMENTS = LemonCountdown/LemonCountdown.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1235,6 +1098,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_OPTIMIZATION = space;
 				CODE_SIGN_ENTITLEMENTS = LemonCountdown/LemonCountdownRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1277,6 +1141,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_OPTIMIZATION = space;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = WidgetsExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -1309,6 +1174,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_OPTIMIZATION = space;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = WidgetsExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -1381,6 +1247,10 @@
 		8DC0F6942C7391A700F810B8 /* XCLocalSwiftPackageReference "../../Archive/SwiftMovable" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../../Archive/SwiftMovable;
+		};
+		8DC0F7A32C77502700F810B8 /* XCLocalSwiftPackageReference "../SwiftWidgetEditorKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../SwiftWidgetEditorKit;
 		};
 /* End XCLocalSwiftPackageReference section */
 
@@ -1529,6 +1399,14 @@
 		8DC0F6952C7391A700F810B8 /* SwiftMovable */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SwiftMovable;
+		};
+		8DC0F7A42C77502700F810B8 /* SwiftWidgetEditorKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftWidgetEditorKit;
+		};
+		8DCF89A02C77531B00F72BBB /* SwiftWidgetEditorKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftWidgetEditorKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

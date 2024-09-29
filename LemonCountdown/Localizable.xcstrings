@@ -65,6 +65,7 @@
       }
     },
     "%lld" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -677,6 +678,7 @@
       }
     },
     "+%lld天" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1000,6 +1002,7 @@
       }
     },
     "88:88:88" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1010,6 +1013,7 @@
       }
     },
     "add" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1086,6 +1090,7 @@
       }
     },
     "Add Text" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1238,6 +1243,7 @@
       }
     },
     "edit" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1421,6 +1427,7 @@
       }
     },
     "OK" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2510,6 +2517,7 @@
       }
     },
     "事件信息" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3067,6 +3075,7 @@
       }
     },
     "保存" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3877,6 +3886,7 @@
       }
     },
     "双击编辑文案" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4309,6 +4319,7 @@
       }
     },
     "字体" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -5864,6 +5875,7 @@
       }
     },
     "文字" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -6735,6 +6747,7 @@
       }
     },
     "查看事件信息" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -7025,6 +7038,7 @@
       }
     },
     "标题占位" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -9165,6 +9179,7 @@
       }
     },
     "背景" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -9847,6 +9862,7 @@
       }
     },
     "贴纸" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -10020,6 +10036,7 @@
       }
     },
     "输入文字" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -10159,6 +10176,7 @@
       }
     },
     "选中事件信息后，可以切换到文本 Tab 改变颜色，和字体大小" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {

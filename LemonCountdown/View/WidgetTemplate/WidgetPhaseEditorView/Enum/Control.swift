@@ -6,11 +6,12 @@
 //
 
 import Foundation
+import HorizontalPicker
+import LemonCountdownModel
+import SwiftMovable
 import SwiftUI
 
-// Enum representing different controls for editing the widget.
-enum Control: Int, Hashable {
-//    case none
+enum Control: Int, Hashable, CaseIterable {
     case sticker
     case text
     case background
@@ -18,14 +19,38 @@ enum Control: Int, Hashable {
 
     var text: LocalizedStringKey {
         switch self {
-        case .sticker:
-            "贴纸"
-        case .text:
-            "文字"
-        case .eventInfo:
-            "事件信息"
+        case .background: return "背景"
+        case .sticker: return "贴纸"
+        case .text: return "文字"
+        case .eventInfo: return "事件信息"
+        }
+    }
+
+    @ViewBuilder
+    func view(vm: WidgetPhaseEditorViewModel, phase: WidgetPhase) -> some View {
+        @Bindable var vm = vm
+
+        switch self {
         case .background:
-            "背景"
+            BackgroundPickerView(selectedBackgroundKind: vm.selectedBackgroundKind, background: phase.background)
+        case .sticker:
+            SingleIconSetIconPickerView(selectedImg: $vm.selectedImage, icons: stickerMap[vm.selectedSticker] ?? [], tapCallback: vm.addSticker)
+        case .text:
+            TextStyleEditor(textItem: Binding(
+                get: { vm.selection as? Stylable },
+                set: { newValue in
+                    if var selected = vm.selection as? Stylable {
+                        if let colorHex = newValue?.colorHex {
+                            selected.colorHex = colorHex
+                        }
+                        selected.fontName = newValue?.fontName
+                        if let fontSize = newValue?.fontSize {
+                            selected.fontSize = fontSize
+                        }
+                    }
+                }), selectedFontName: .constant(vm.selectedFontName), fontSize: .constant(vm.fontSize))
+        case .eventInfo:
+            EventInfoPickerView(tapCallback: vm.addEventInfo, wigetPhaseTimeKind: phase.kind)
         }
     }
 }

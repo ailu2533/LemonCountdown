@@ -8,6 +8,7 @@
 import Foundation
 import LemonCountdownModel
 import SwiftUI
+import SwiftWidgetEditorKit
 
 struct WidgetTemplatePreview: View {
     var widgetTempletModel: WidgetTemplateModel

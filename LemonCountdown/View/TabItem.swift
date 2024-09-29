@@ -49,7 +49,7 @@ enum TabItem: Int, CaseIterable, Identifiable {
                     .navigationDestination(for: WidgetTemplateDetailTarget.self) { widgetTemplateDetailTarget in
                         switch widgetTemplateDetailTarget {
                         case let .widgetTemplateModel(widgetTemplateModel):
-                            WidgetTemplateDetailView(wt: widgetTemplateModel)
+                            WidgetTemplateDetailView(widgetTemplateModel: widgetTemplateModel)
                                 .id(widgetTemplateModel.id)
                         }
                     }

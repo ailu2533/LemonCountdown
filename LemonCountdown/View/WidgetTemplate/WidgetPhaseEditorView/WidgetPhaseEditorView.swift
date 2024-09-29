@@ -52,10 +52,10 @@ struct WidgetPhaseEditorView: View {
             GeometryReader { _ in
                 VStack {
                     Spacer()
-                    WidgetPhaseEditorCardView(phase: phase, widgetSize: widgetSize, selected: $editorViewModel.selectedMovableObjectUUID)
+                    WidgetPhaseEditorCardView(phase: phase, widgetSize: widgetSize, selection: $editorViewModel.selection)
                     Spacer()
                     WidgetEditorControlsView(phase: phase, vm: editorViewModel, height: height)
-                }
+                }.ignoresSafeArea(.keyboard)
             }
             .toolbar {
                 WidgetEditorToolbarContent(widgetTemplate: widgetTemplate, phase: phase, saveAction: editorViewModel.saveWidgetTemplateModel)
@@ -71,7 +71,7 @@ struct WidgetPhaseEditorView: View {
         .alert("输入文字", isPresented: $editorViewModel.showInputText) {
             textInputAlert
         }
-        .onChange(of: editorViewModel.selected, perform: editorViewModel.updateSelectionDetails)
+        .onChange(of: editorViewModel.selection, perform: editorViewModel.updateSelectionDetails)
         .onAppearOnce {
             editorViewModel.configure(widgetTemplate: widgetTemplate, phase: phase, modelContext: modelContext, widgetCenter: widgetCenter)
         }

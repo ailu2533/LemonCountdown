@@ -6,8 +6,8 @@
 //
 
 import LemonCountdownModel
-import LemonUtils
 import SwiftUI
+import LemonUtils
 
 struct ColorSectionView: View {
     @Binding var colorHex: String

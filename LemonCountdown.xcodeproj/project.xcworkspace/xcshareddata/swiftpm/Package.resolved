@@ -1,5 +1,5 @@
 {
-  "originHash" : "c8aae6cec131e15cbd6c60b094957ab42fdd385c4fb5673880f7203afcf82cfd",
+  "originHash" : "75fcc56fbc90e17dac987f23dfd8cd75391f20b13927e7f03f4f0d1edec795ca",
   "pins" : [
     {
       "identity" : "colorkit",
@@ -52,7 +52,7 @@
       "location" : "https://github.com/ailu2533/HorizontalPicker.git",
       "state" : {
         "branch" : "main",
-        "revision" : "61eebae311f4e2c6c3898fd86d2cf722a71411b7"
+        "revision" : "4ad6f74fcccdb20f5e6359e2da7d2b6882ba3cb0"
       }
     },
     {
@@ -71,6 +71,15 @@
       "state" : {
         "branch" : "master",
         "revision" : "69921e0c755be7ff71d1e19f70b6179e432b8b0b"
+      }
+    },
+    {
+      "identity" : "parchment",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rechsteiner/Parchment.git",
+      "state" : {
+        "revision" : "189e900d1910d3c3a18cc6ad4b73fdbe54896e74",
+        "version" : "4.0.0"
       }
     },
     {
